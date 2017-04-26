@@ -8,6 +8,6 @@ To start this node, run `info-beamer .` from this directory.
 
 # Todo
 
-[ ] Slide entry and exit animations
-[ ] Slide control over display duration
-[ ] Image slide
+- [ ] Slide entry and exit animations
+- [ ] Slide control over display duration
+- [ ] Image slide
