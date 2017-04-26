@@ -1,0 +1,4 @@
+{
+  "title": "ANNOUNCEMENT",
+  "body": "This is something that is long enough to potentially wrap around multiple lines.  Unfortunately, the wrapping algorithm loses double spaces at the start of new sentences."
+}

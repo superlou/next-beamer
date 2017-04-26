@@ -1,0 +1,25 @@
+{
+  "title": "COMING UP",
+  "events": [
+    {
+      "name": "Disco Phever",
+      "start": "7:00 PM",
+      "location": "Panel 401"
+    },
+    {
+      "name": "SnakeFight(tm)",
+      "start": "7:00 PM",
+      "location": "Panel 402"
+    },
+    {
+      "name": "Humiliate a Pheasant",
+      "start": "7:30 PM",
+      "location": "Main Events"
+    },
+    {
+      "name": "Congarmagedon",
+      "start": "7:30 PM",
+      "location": "Main Events B"
+    }
+  ]
+}
