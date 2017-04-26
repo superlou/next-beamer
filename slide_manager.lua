@@ -1,3 +1,4 @@
+local json = require 'json'
 local class = require '30log'
 require 'upcoming_slide'
 require 'text_slide'

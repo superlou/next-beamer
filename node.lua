@@ -2,7 +2,7 @@ require 'slide_manager'
 
 gl.setup(1600, 900)
 
-local video = util.videoplayer("loop.m4v")
+local video = util.videoplayer("loop.m4v", {["loop"] = true;})
 local slide_manager = SlideManager(WIDTH, HEIGHT, 'slides.json')
 
 function node.render()
