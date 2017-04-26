@@ -6,29 +6,44 @@ function write_centered(text, size, x_pos, y, r, g, b, a)
   font:write(x, y, text, size, r, g, b, a)
 end
 
+function split_newlines(str)
+  local t = {}
+  local function helper(line)
+    table.insert(t, line)
+    return ""
+  end
+  helper((str:gsub("(.-)\r?\n", helper)))
+  return t
+end
+
 function wrap_text(text, font, size, width)
-  local lines = {}
-  local current_line = ''
+  local lines = split_newlines(text)
 
-  for word in text:gmatch("%S+") do
-    if current_line == '' then
-        current_line = word
-    else
-      local check_line = current_line .. ' ' .. word
-      local check_width = font:width(check_line, size)
+  local wrapped_lines = {}
 
-      if check_width < width then
-        current_line = check_line
+  for i, line in ipairs(lines) do
+    local current_line = ''
+    
+    for word in line:gmatch("%S+") do
+      if current_line == '' then
+          current_line = word
       else
-        table.insert(lines, current_line)
-        current_line = word
+        local check_line = current_line .. ' ' .. word
+        local check_width = font:width(check_line, size)
+
+        if check_width < width then
+          current_line = check_line
+        else
+          table.insert(wrapped_lines, current_line)
+          current_line = word
+        end
       end
+    end
+
+    if line ~= '' then
+      table.insert(wrapped_lines, current_line)
     end
   end
 
-  if line ~= '' then
-    table.insert(lines, current_line)
-  end
-
-  return lines
+  return wrapped_lines
 end
