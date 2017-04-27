@@ -5,9 +5,9 @@ local Slide = require 'slide'
 
 local white_block = resource.load_image('white.png')
 
-local UpcomingSlide = Slide:extend("UpcomingSlide")
+local EventListSlide = Slide:extend("EventListSlide")
 
-function UpcomingSlide:init(width, height, data_filename, font)
+function EventListSlide:init(width, height, data_filename, font)
   self.super:init()
   self.font = resource.load_font(font)
   self.width, self.height = width, height
@@ -20,7 +20,7 @@ function UpcomingSlide:init(width, height, data_filename, font)
   end)
 end
 
-function UpcomingSlide:draw()
+function EventListSlide:draw()
   self.super:tick()
   write_centered(self.title, 50, self.width / 2, 50, 1, 1, 1, 1)
 
@@ -42,13 +42,13 @@ function draw_schedule_item(x, y, name, start, location, font)
   font:write(x + 1100, y + 10, location, 60, 1, 1, 1, 1)
 end
 
-function UpcomingSlide:reset()
+function EventListSlide:reset()
   self.super:reset()
   self.x = -self.width
 end
 
-function UpcomingSlide:is_done()
+function EventListSlide:is_done()
   return (self.super.active_time > 5)
 end
 
-return UpcomingSlide
+return EventListSlide
