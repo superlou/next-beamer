@@ -7,9 +7,11 @@ local white_block = resource.load_image('white.png')
 UpcomingSlide = class("UpcomingSlide")
 
 function UpcomingSlide:init(width, height, data_filename, font)
+  self.framerate = 60
   self.font = resource.load_font(font)
   self.width, self.height = width, height
-  self.x = -width
+  self.active_time = 0
+  self:reset()
 
   util.file_watch(data_filename, function(content)
     local upcoming_data = json.decode(content)
@@ -19,6 +21,7 @@ function UpcomingSlide:init(width, height, data_filename, font)
 end
 
 function UpcomingSlide:draw()
+  self.active_time = self.active_time + 1 / self.framerate
   write_centered(self.title, 50, self.width / 2, 50, 1, 1, 1, 1)
 
   local y = 150
@@ -37,4 +40,13 @@ function draw_schedule_item(x, y, name, start, location, font)
   font:write(x + 20, y + 10, start, 60, 1, 1, 1, 1)
   font:write(x + 300, y + 10, name, 60, 1, 1, 1, 1)
   font:write(x + 1100, y + 10, location, 60, 1, 1, 1, 1)
+end
+
+function UpcomingSlide:reset()
+  self.x = -self.width
+  self.active_time = 0
+end
+
+function UpcomingSlide:is_done()
+  return (self.active_time > 5)
 end

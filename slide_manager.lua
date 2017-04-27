@@ -8,8 +8,7 @@ SlideManager = class("SlideManager")
 function SlideManager:init(width, height, slides_filename, font)
   self.font = font
   self.width, self.height = width, height
-  self.framerate = 60
-  self.active_slide = nil
+  self.active_slide_index = nil
   self.slides = {}
 
   util.file_watch(slides_filename, function(content)
@@ -20,8 +19,8 @@ end
 
 function SlideManager:build_slides(slides_data)
   self.slides = {}
-  self.active_slide = nil
-  self.active_slide_time = 0
+  self.active_slide_index = nil
+  -- self.active_slide_time = 0
 
   for i, slide_data in ipairs(slides_data) do
     local slide
@@ -34,22 +33,24 @@ function SlideManager:build_slides(slides_data)
 
     if slide then
       table.insert(self.slides, slide)
-      self.active_slide = 1
+      self.active_slide_index = 1
     end
   end
 end
 
 function SlideManager:draw()
-  self.active_slide_time = self.active_slide_time + 1 / self.framerate
+  local active_slide = self.slides[self.active_slide_index]
 
-  if self.active_slide_time > 5 then
-    self.active_slide = self.active_slide + 1
-    self.active_slide_time = 0
+  if active_slide:is_done() then
+    active_slide:reset()
+    self.active_slide_index = self.active_slide_index + 1
 
-    if self.active_slide > #self.slides then
-      self.active_slide = 1
+    if self.active_slide_index > #self.slides then
+      self.active_slide_index = 1
     end
+
+    active_slide = self.slides[self.active_slide_index]
   end
 
-  self.slides[self.active_slide]:draw()
+  active_slide:draw()
 end
