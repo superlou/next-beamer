@@ -18,6 +18,7 @@ function TextSlide:init(width, height, data_filename, font)
 
   util.file_watch(data_filename, function(content)
     local data = json.decode(content)
+    self.duration = data.duration
     self.title = data.title
     self.body = data.body
     self.lines = wrap_text(self.body, self.font, self.size,
@@ -44,7 +45,7 @@ function TextSlide:reset()
 end
 
 function TextSlide:is_done()
-  return (self.super.active_time > 5)
+  return (self.super.active_time > self.duration)
 end
 
 return TextSlide

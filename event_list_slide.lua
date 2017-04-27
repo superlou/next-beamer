@@ -14,9 +14,10 @@ function EventListSlide:init(width, height, data_filename, font)
   self:reset()
 
   util.file_watch(data_filename, function(content)
-    local upcoming_data = json.decode(content)
-    self.title = upcoming_data.title
-    self.events = upcoming_data.events
+    local event_list = json.decode(content)
+    self.title = event_list.title
+    self.events = event_list.events
+    self.duration = event_list.duration
   end)
 end
 
@@ -48,7 +49,7 @@ function EventListSlide:reset()
 end
 
 function EventListSlide:is_done()
-  return (self.super.active_time > 5)
+  return (self.super.active_time > self.duration)
 end
 
 return EventListSlide
