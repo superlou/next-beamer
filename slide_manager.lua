@@ -1,7 +1,7 @@
 local json = require 'json'
 local class = require '30log'
-require 'upcoming_slide'
-require 'text_slide'
+local UpcomingSlide = require 'upcoming_slide'
+local TextSlide = require 'text_slide'
 
 SlideManager = class("SlideManager")
 
@@ -20,7 +20,6 @@ end
 function SlideManager:build_slides(slides_data)
   self.slides = {}
   self.active_slide_index = nil
-  -- self.active_slide_time = 0
 
   for i, slide_data in ipairs(slides_data) do
     local slide

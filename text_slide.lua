@@ -1,19 +1,19 @@
 require 'text_util'
 local class = require '30log'
 local json = require 'json'
+local Slide = require 'slide'
 
 local white_block = resource.load_image('white.png')
 
-TextSlide = class("TextSlide")
+local TextSlide = Slide:extend("TextSlide")
 
 function TextSlide:init(width, height, data_filename, font)
-  self.framerate = 60
+  self.super:init()
   self.font = resource.load_font(font)
   self.size = 50
   self.line_spacing = 1.5
   self.padding = 0.1
   self.width, self.height = width, height
-  self.active_time = 0
   self:reset()
 
   util.file_watch(data_filename, function(content)
@@ -26,7 +26,7 @@ function TextSlide:init(width, height, data_filename, font)
 end
 
 function TextSlide:draw()
-  self.active_time = self.active_time + 1 / self.framerate
+  self.super:tick()
   write_centered(self.title, 50, self.width / 2, 50, 1, 1, 1, 1)
 
   self.start_y = 150
@@ -40,9 +40,11 @@ function TextSlide:draw()
 end
 
 function TextSlide:reset()
-  self.active_time = 0
+  self.super:reset()
 end
 
 function TextSlide:is_done()
-  return (self.active_time > 5)
+  return (self.super.active_time > 5)
 end
+
+return TextSlide
