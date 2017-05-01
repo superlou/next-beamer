@@ -2,6 +2,7 @@ local json = require 'json'
 local class = require '30log'
 local EventListSlide = require 'event_list_slide'
 local TextSlide = require 'text_slide'
+local ImageSlide = require 'image_slide'
 
 SlideManager = class("SlideManager")
 
@@ -28,6 +29,8 @@ function SlideManager:build_slides(slides_data)
       slide = EventListSlide(self.width, self.height, slide_data.data, slide_data.font)
     elseif slide_data.type == "text_slide" then
       slide = TextSlide(self.width, self.height, slide_data.data, slide_data.font)
+    elseif slide_data.type == "image_slide" then
+      slide = ImageSlide(self.width, self.height, slide_data.data)
     end
 
     if slide then

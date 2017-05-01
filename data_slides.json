@@ -11,6 +11,11 @@
       "type": "text_slide",
       "data": "data_announcement.json",
       "font": "RobotoCondensed-Regular.ttf"
-    }
+    },
+    {
+      "id": "photo",
+      "type": "image_slide",
+      "data": "data_photo.json"
+    }    
   ]
 }
