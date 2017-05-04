@@ -7,14 +7,14 @@ local white_block = resource.load_image('white.png')
 
 local EventListSlide = Slide:extend("EventListSlide")
 
-function EventListSlide:init(width, height, data_filename, font)
+function EventListSlide:init(width, height, data_filename)
   self.super:init()
-  self.font = resource.load_font(font)
   self.width, self.height = width, height
   self:reset()
 
   util.file_watch(data_filename, function(content)
     local event_list = json.decode(content)
+    self.font = resource.load_font(event_list.font)
     self.title = event_list.title
     self.events = event_list.events
     self.duration = event_list.duration

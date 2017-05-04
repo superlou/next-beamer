@@ -1,5 +1,6 @@
 {
   "duration": 5,
+  "font": "RobotoCondensed-Regular.ttf",
   "title": "ANNOUNCEMENT",
   "body": "This is something that is long enough to potentially wrap around multiple lines.  Unfortunately, the wrapping algorithm loses double spaces at the start of new sentences.\n \nIt also supports newlines of the \"\\n\" variety, but swallows multiple consecutive newlines just like the spaces problem.  The hacky work-around is to put a space between to newline characters."
 }

@@ -1,6 +1,7 @@
 {
   "duration": 5,
   "title": "COMING UP",
+  "font": "RobotoCondensed-Regular.ttf",
   "events": [
     {
       "name": "Disco Phever",

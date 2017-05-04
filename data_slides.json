@@ -3,19 +3,17 @@
     {
       "id": "upcoming",
       "type": "event_list_slide",
-      "data": "data_upcoming.json",
-      "font": "RobotoCondensed-Regular.ttf"
+      "data": "data_upcoming.json"
     },
     {
       "id": "announcment",
       "type": "text_slide",
-      "data": "data_announcement.json",
-      "font": "RobotoCondensed-Regular.ttf"
+      "data": "data_announcement.json"
     },
     {
       "id": "photo",
       "type": "image_slide",
       "data": "data_photo.json"
-    }    
+    }
   ]
 }
