@@ -1,0 +1,11 @@
+{
+  "active": true,
+  "font": "RobotoCondensed-Regular.ttf",
+  "speed": 3,
+  "messages": [
+    "Message 1",
+    "Johnny Cash's Movie event moved to Panel 304",
+    "The third message",
+    "Tweet to #convention"
+  ]
+}
