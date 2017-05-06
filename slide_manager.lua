@@ -6,7 +6,8 @@ local ImageSlide = require 'image_slide'
 
 SlideManager = class("SlideManager")
 
-function SlideManager:init(width, height, slides_filename)
+function SlideManager:init(x, y, width, height, slides_filename)
+  self.x, self.y = x, y
   self.width, self.height = width, height
   self.active_slide_index = nil
   self.slides = {}
@@ -26,11 +27,11 @@ function SlideManager:build_slides(slides_data)
 
     if not slide_data.disable then
       if slide_data.type == "event_list_slide" then
-        slide = EventListSlide(self.width, self.height, slide_data.data)
+        slide = EventListSlide(self.x, self.y, self.width, self.height, slide_data.data)
       elseif slide_data.type == "text_slide" then
-        slide = TextSlide(self.width, self.height, slide_data.data)
+        slide = TextSlide(self.x, self.y, self.width, self.height, slide_data.data)
       elseif slide_data.type == "image_slide" then
-        slide = ImageSlide(self.width, self.height, slide_data.data)
+        slide = ImageSlide(self.x, self.y, self.width, self.height, slide_data.data)
       end
 
       if slide then

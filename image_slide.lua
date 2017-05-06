@@ -4,8 +4,9 @@ local Slide = require 'slide'
 
 local ImageSlide = Slide:extend("ImageSlide")
 
-function ImageSlide:init(width, height, data_filename, font)
+function ImageSlide:init(x, y, width, height, data_filename, font)
   self.super:init()
+  self.x, self.y = x, y
   self.padding = 0.1
   self.width, self.height = width, height
   self:reset()

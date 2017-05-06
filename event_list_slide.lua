@@ -7,8 +7,9 @@ local white_block = resource.load_image('white.png')
 
 local EventListSlide = Slide:extend("EventListSlide")
 
-function EventListSlide:init(width, height, data_filename)
+function EventListSlide:init(x, y, width, height, data_filename)
   self.super:init()
+  self.x, self.y = x, y  
   self.width, self.height = width, height
   self:reset()
 

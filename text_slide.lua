@@ -7,8 +7,9 @@ local white_block = resource.load_image('white.png')
 
 local TextSlide = Slide:extend("TextSlide")
 
-function TextSlide:init(width, height, data_filename)
+function TextSlide:init(x, y, width, height, data_filename)
   self.super:init()
+  self.x, self.y = x, y
   self.size = 50
   self.line_spacing = 1.5
   self.padding = 0.1
@@ -18,7 +19,7 @@ function TextSlide:init(width, height, data_filename)
   util.file_watch(data_filename, function(content)
     local data = json.decode(content)
     self.duration = data.duration
-    self.font = resource.load_font(data.font)    
+    self.font = resource.load_font(data.font)
     self.title = data.title
     self.body = data.body
     self.lines = wrap_text(self.body, self.font, self.size,
