@@ -24,17 +24,19 @@ function SlideManager:build_slides(slides_data)
   for i, slide_data in ipairs(slides_data) do
     local slide
 
-    if slide_data.type == "event_list_slide" then
-      slide = EventListSlide(self.width, self.height, slide_data.data)
-    elseif slide_data.type == "text_slide" then
-      slide = TextSlide(self.width, self.height, slide_data.data)
-    elseif slide_data.type == "image_slide" then
-      slide = ImageSlide(self.width, self.height, slide_data.data)
-    end
+    if not slide_data.disable then
+      if slide_data.type == "event_list_slide" then
+        slide = EventListSlide(self.width, self.height, slide_data.data)
+      elseif slide_data.type == "text_slide" then
+        slide = TextSlide(self.width, self.height, slide_data.data)
+      elseif slide_data.type == "image_slide" then
+        slide = ImageSlide(self.width, self.height, slide_data.data)
+      end
 
-    if slide then
-      table.insert(self.slides, slide)
-      self.active_slide_index = 1
+      if slide then
+        table.insert(self.slides, slide)
+        self.active_slide_index = 1
+      end
     end
   end
 end
