@@ -1,4 +1,5 @@
 local class = require '30log'
+local json = require 'json'
 
 local Ticker = class("Ticker")
 local TickerMsg = class("TickerMsg")
