@@ -1,0 +1,32 @@
+{
+  "duration": 5,
+  "title": "HAPPENING NOW",
+  "font": "RobotoCondensed-Regular.ttf",
+  "events": [
+    {
+      "name": "Alarming Noises",
+      "start": "6:00 PM",
+      "location": "Panel 401"
+    },
+    {
+      "name": "The Cuttlefish Waltz",
+      "start": "6:15 PM",
+      "location": "Panel 402"
+    },
+    {
+      "name": "Red Cup, Blue Cup",
+      "start": "6:30 PM",
+      "location": "Main Events"
+    },
+    {
+      "name": "Asking Fish for Directions",
+      "start": "6:30 PM",
+      "location": "Main Events B"
+    },
+    {
+      "name": "Old Popcorn is Gross",
+      "start": "6:30 PM",
+      "location": "Main Events B"
+    }
+  ]
+}

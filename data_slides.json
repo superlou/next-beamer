@@ -1,19 +1,28 @@
 {
   "slides": [
     {
+      "id": "happening_now",
+      "type": "event_list_slide",
+      "data": "data_happening_now.json",
+      "disable": false
+    },
+    {
       "id": "upcoming",
       "type": "event_list_slide",
-      "data": "data_upcoming.json"
+      "data": "data_upcoming.json",
+      "disable": false
     },
     {
       "id": "announcment",
       "type": "text_slide",
-      "data": "data_announcement.json"
+      "data": "data_announcement.json",
+      "disable": false
     },
     {
       "id": "photo",
       "type": "image_slide",
-      "data": "data_photo.json"
+      "data": "data_photo.json",
+      "disable": false
     }
   ]
 }
