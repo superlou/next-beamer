@@ -10,19 +10,19 @@
       "id": "upcoming",
       "type": "event_list_slide",
       "data": "data_upcoming.json",
-      "disable": false
+      "disable": true
     },
     {
       "id": "announcment",
       "type": "text_slide",
       "data": "data_announcement.json",
-      "disable": false
+      "disable": true
     },
     {
       "id": "photo",
       "type": "image_slide",
       "data": "data_photo.json",
-      "disable": false
+      "disable": true
     }
   ]
 }
