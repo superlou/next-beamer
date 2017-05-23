@@ -23,7 +23,7 @@ function wrap_text(text, font, size, width)
 
   for i, line in ipairs(lines) do
     local current_line = ''
-    
+
     for word in line:gmatch("%S+") do
       if current_line == '' then
           current_line = word
@@ -46,4 +46,14 @@ function wrap_text(text, font, size, width)
   end
 
   return wrapped_lines
+end
+
+function size_text_to_width(text, font, width, max_size)
+  local text_width = font:width(text, max_size)
+
+  local ratio = width / text_width
+  local new_size = math.min(max_size, max_size * ratio)
+  local y_offset = (max_size - new_size) / 2
+
+  return new_size, y_offset
 end
