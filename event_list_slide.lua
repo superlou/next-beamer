@@ -58,7 +58,6 @@ function EventListSlide:group_items()
   end
 
   table.insert(pages, current_page)
-  print(#pages)
   return pages
 end
 
@@ -67,7 +66,6 @@ function EventListSlide:draw()
   write_centered(self.title, 50, self.width / 2, 50, 1, 1, 1, 1)
 
   local page_num = math.floor(self.super.active_time / self.duration) + 1
-  print(page_num)
 
   local y = self.items_start
   for i, item in ipairs(self.pages[page_num]) do
