@@ -16,13 +16,13 @@
       "id": "announcment",
       "type": "text_slide",
       "data": "data_announcement.json",
-      "disable": false
+      "disable": true
     },
     {
       "id": "photo",
       "type": "image_slide",
       "data": "data_photo.json",
-      "disable": false
+      "disable": true
     }
   ]
 }

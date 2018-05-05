@@ -66,10 +66,27 @@ function EventListSlide:draw()
   write_centered(self.title, 50, self.width / 2, 50, 1, 1, 1, 1)
 
   local page_num = math.floor(self.super.active_time / self.duration) + 1
+  local page_time = self.super.active_time - self.duration * (page_num - 1)
+
+  local item_fade = 0.2
+  local page_clear_start_time = self.duration - #self.pages[page_num] * item_fade
+  local clearing_page = (page_time > page_clear_start_time)
 
   local y = self.items_start
   for i, item in ipairs(self.pages[page_num]) do
-    item:draw(50, y, 1)
+    local offset = i - 1
+    local alpha
+
+    if clearing_page then
+      local clearing_time = page_time - page_clear_start_time
+      alpha = 1 - (clearing_time / item_fade - offset)
+    else
+      alpha = page_time / item_fade - offset
+    end
+
+    alpha = math.min(math.max(alpha, 0), 1)
+
+    item:draw(50, y, alpha)
     y = y + item:get_height()
   end
 end
