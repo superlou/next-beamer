@@ -1,7 +1,7 @@
 require 'text_util'
 local class = require '30log'
 
-local white_block = resource.load_image('white.png')
+local white_block = resource.create_colored_texture(1, 1, 1, 1)
 
 local EventListItem = class("EventListItem")
 

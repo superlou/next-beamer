@@ -3,7 +3,7 @@ local class = require '30log'
 local json = require 'json'
 local Slide = require 'slide'
 
-local white_block = resource.load_image('white.png')
+-- local white_block = resource.load_image('white.png')
 
 local EventListSlide = Slide:extend("EventListSlide")
 local EventListItem = require 'event_list_item'
