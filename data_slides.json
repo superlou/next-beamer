@@ -3,26 +3,24 @@
     {
       "id": "happening_now",
       "type": "event_list_slide",
-      "data": "data_happening_now.json",
-      "disable": false
+      "data": "data_happening_now.json"
     },
     {
       "id": "upcoming",
       "type": "event_list_slide",
-      "data": "data_upcoming.json",
-      "disable": false
+      "data": "data_upcoming.json"
     },
     {
       "id": "announcment",
       "type": "text_slide",
       "data": "data_announcement.json",
-      "disable": true
+      "enable": false
     },
     {
       "id": "photo",
       "type": "image_slide",
       "data": "data_photo.json",
-      "disable": true
+      "enable": ["bestever"]
     }
   ]
 }

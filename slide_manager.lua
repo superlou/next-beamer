@@ -18,6 +18,26 @@ function SlideManager:init(x, y, width, height, slides_filename)
   end)
 end
 
+function is_enabled(setting)
+  local name = sys.get_env("NAME")
+
+  if setting == true then
+    return true
+  elseif setting == nil then
+    return true
+  elseif name and type(setting) == "string" then
+    return setting == name
+  elseif name and type(setting) == "table" then
+    for _, value in pairs(setting) do
+      if value == name then
+        return true
+      end
+    end
+  end
+
+  return false
+end
+
 function SlideManager:build_slides(slides_data)
   self.slides = {}
   self.active_slide_index = nil
@@ -25,7 +45,7 @@ function SlideManager:build_slides(slides_data)
   for i, slide_data in ipairs(slides_data) do
     local slide
 
-    if not slide_data.disable then
+    if is_enabled(slide_data.enable) then
       if slide_data.type == "event_list_slide" then
         slide = EventListSlide(self.x, self.y, self.width, self.height, slide_data.data)
       elseif slide_data.type == "text_slide" then
