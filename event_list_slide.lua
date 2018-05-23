@@ -66,10 +66,13 @@ function EventListSlide:draw()
   write_centered(self.title, 50, self.width / 2, 50, 1, 1, 1, 1)
 
   local page_num = math.floor(self.super.active_time / self.duration) + 1
+  -- Handle edge case where you can get one frame past the available pages
+  page_num = math.min(page_num, #self.pages)
+
   local page_time = self.super.active_time - self.duration * (page_num - 1)
 
   local item_fade = 0.2
-  local page_clear_start_time = self.duration - #self.pages[page_num] * item_fade
+  local page_clear_start_time = self.duration - #(self.pages[page_num]) * item_fade
   local clearing_page = (page_time > page_clear_start_time)
 
   local y = self.items_start
