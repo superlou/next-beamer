@@ -7,7 +7,7 @@ local ImageSlide = Slide:extend("ImageSlide")
 function ImageSlide:init(x, y, width, height, data_filename, font)
   self.super:init()
   self.x, self.y = x, y
-  self.padding = 0.1
+  self.padding = 0
   self.width, self.height = width, height
   self:reset()
   self.image = nil
@@ -16,6 +16,9 @@ function ImageSlide:init(x, y, width, height, data_filename, font)
     local data = json.decode(content)
     self.duration = data.duration
     self.image = resource.load_image(data.file)
+    if data.padding then
+      self.padding = data.padding
+    end
   end)
 end
 
