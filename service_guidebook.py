@@ -1,0 +1,166 @@
+#!/usr/bin/python3
+import os
+import sys
+import json
+import dateutil.parser
+import datetime
+import traceback
+from time import sleep, time
+from guidebook import api_requestor
+
+
+def request_paginated(api_requestor, method, api_url):
+    response = api_requestor.request(method, api_url)
+    results = response['results']
+
+    while 'next' in response and response['next']:
+        response = api_requestor.request(method, response['next'])
+        results += response['results']
+
+    return results
+
+
+def pull_from_guidebook(catalog_file):
+    api_key = os.environ.get('GUIDEBOOK_API_KEY')
+    if not api_key:
+        print('GUIDEBOOK_API_KEY environment variable not set!')
+        print('API key available at https://builder.guidebook.com/#/account/api/')
+        sys.exit()
+
+    client = api_requestor.APIRequestor(api_key)
+
+    url = 'https://builder.guidebook.com/open-api/v1/sessions/?ordering=start_time'
+    sessions = request_paginated(client, 'get', url)
+
+    url = 'https://builder.guidebook.com/open-api/v1/locations/'
+    locations = request_paginated(client, 'get', url)
+
+    location_name_map = {
+        location['id']: location['name'] for location in locations
+    }
+
+    sessions_list = []
+
+    for session in sessions:
+        if len(session['locations']) > 0:
+            location = location_name_map.get(session['locations'][0], '')
+        else:
+            location = ''
+
+        data = {
+            'name': session['name'],
+            'start': session['start_time'],
+            'finish': session['end_time'],
+            'location': location
+        }
+
+        sessions_list.append(data)
+
+    with open(catalog_file, 'w') as out_file:
+        json.dump(sessions_list, out_file, sort_keys=True, indent=4)
+
+
+def save_json(data, filename, date_format):
+    def custom_serializer(x):
+        if isinstance(x, datetime.datetime):
+            return x.strftime(date_format)
+        raise TypeError("Unknown type")
+
+    json_string = json.dumps(data, sort_keys=True, indent=4,
+                             default=custom_serializer)
+
+
+    try:
+        with open(filename) as out_file:
+            if json_string == out_file.read():
+                return
+    except Exception:
+        pass
+
+    with open(filename, 'w') as out_file:
+        out_file.write(json_string)
+
+
+def build_happening_now_json(guidebook_filename, output_filename, now=None):
+    if now is None:
+        now = time()
+
+    sessions = json.load(open(guidebook_filename))
+    sessions = sorted(sessions, key=lambda k: k['location'])
+
+    happening_now = []
+
+    for session in sessions:
+        try:
+            start = dateutil.parser.parse(session['start'])
+            finish = dateutil.parser.parse(session['finish'])
+            if now >= start and now < finish:
+                happening_now.append({
+                    'start': start.strftime("%-I:%M %p"),
+                    'name': session['name'],
+                    'location': session['location']
+                })
+        except Exception:
+            pass
+
+    save_json(happening_now, output_filename)
+
+
+def load_guidebook_json(filename):
+    raw = json.load(open(filename))
+    sessions = []
+    for session in raw:
+        try:
+            sessions.append({
+                'start': dateutil.parser.parse(session['start']),
+                'finish': dateutil.parser.parse(session['finish']),
+                'name': session['name'],
+                'location': session['location']
+            })
+        except Exception:
+            pass
+
+    return sessions
+
+def get_now_and_soon(sessions, now=None):
+    if now is None:
+        now = time()
+
+    sessions = sorted(sessions, key=lambda k: k['location'])
+    happening_now = [s for s in sessions if now >= s['start'] and now < s['finish']]
+
+    soon_cutoff = datetime.timedelta(hours=2)
+    soon = [s for s in sessions if s['start'] > now and (s['start'] - now) < soon_cutoff]
+
+    return happening_now, soon
+
+
+def add_metadata(events, title, duration, font):
+    return {
+        'duration': duration,
+        'title': title,
+        'font': font,
+        'events': events
+    }
+
+
+if __name__ == '__main__':
+    # pull_from_guidebook('guidebook.json')
+
+    font = 'RobotoCondensed-Regular.ttf'
+
+    while 1:
+        try:
+            now = dateutil.parser.parse('2018-06-04T12:15:00Z')
+            sessions = load_guidebook_json('guidebook.json')
+            happening_now, soon = get_now_and_soon(sessions, now=now)
+            happening_now = add_metadata(happening_now,
+                                         'HAPPENING NOW', 5,
+                                         font)
+            soon = add_metadata(soon, 'COMING UP', 5, font)
+            save_json(happening_now, 'data_happening_now2.json', date_format="%-I:%M %p")
+            save_json(soon, 'data_happening_soon2.json', date_format="%-I:%M %p")
+        except Exception as e:
+            print(traceback.format_exc())
+
+        sleep(1)
