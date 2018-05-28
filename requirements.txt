@@ -1,1 +1,2 @@
 guidebook-api-python
+python-dateutil
