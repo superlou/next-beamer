@@ -124,7 +124,7 @@ def load_guidebook_json(filename):
 
 def get_now_and_soon(sessions, now=None):
     if now is None:
-        now = time()
+        now = datetime.datetime.now(datetime.timezone.utc)
 
     sessions = sorted(sessions, key=lambda k: k['location'])
     happening_now = [s for s in sessions if now >= s['start'] and now < s['finish']]
@@ -151,15 +151,13 @@ if __name__ == '__main__':
 
     while 1:
         try:
-            now = dateutil.parser.parse('2018-06-04T12:15:00Z')
+            # now = dateutil.parser.parse('2018-06-04T12:15:00Z')
             sessions = load_guidebook_json('guidebook.json')
-            happening_now, soon = get_now_and_soon(sessions, now=now)
-            happening_now = add_metadata(happening_now,
-                                         'HAPPENING NOW', 5,
-                                         font)
-            soon = add_metadata(soon, 'COMING UP', 5, font)
-            save_json(happening_now, 'data_happening_now2.json', date_format="%-I:%M %p")
-            save_json(soon, 'data_happening_soon2.json', date_format="%-I:%M %p")
+            on_now, on_soon = get_now_and_soon(sessions)
+            on_now = add_metadata(on_now, 'HAPPENING NOW', 5, font)
+            on_soon = add_metadata(on_soon, 'COMING UP', 5, font)
+            save_json(on_now, 'data_happening_now2.json', date_format="%-I:%M %p")
+            save_json(on_soon, 'data_happening_soon2.json', date_format="%-I:%M %p")
         except Exception as e:
             print(traceback.format_exc())
 

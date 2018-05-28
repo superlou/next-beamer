@@ -3,12 +3,12 @@
     {
       "id": "happening_now",
       "type": "event_list_slide",
-      "data": "data_happening_now.json"
+      "data": "data_happening_now2.json"
     },
     {
       "id": "upcoming",
       "type": "event_list_slide",
-      "data": "data_upcoming.json"
+      "data": "data_happening_soon2.json"
     },
     {
       "id": "announcment",
@@ -20,7 +20,7 @@
       "id": "photo",
       "type": "image_slide",
       "data": "data_photo.json",
-      "enable": ["bestever"]
+      "enable": ["bestever", "raspberrypi"]
     }
   ]
 }
