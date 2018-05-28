@@ -5,6 +5,7 @@ import json
 import dateutil.parser
 import datetime
 import traceback
+from tzlocal import get_localzone
 from time import sleep, time
 from guidebook import api_requestor
 
@@ -63,12 +64,11 @@ def pull_from_guidebook(catalog_file):
 def save_json(data, filename, date_format):
     def custom_serializer(x):
         if isinstance(x, datetime.datetime):
-            return x.strftime(date_format)
+            return x.astimezone(get_localzone()).strftime(date_format)
         raise TypeError("Unknown type")
 
     json_string = json.dumps(data, sort_keys=True, indent=4,
                              default=custom_serializer)
-
 
     try:
         with open(filename) as out_file:
@@ -79,31 +79,6 @@ def save_json(data, filename, date_format):
 
     with open(filename, 'w') as out_file:
         out_file.write(json_string)
-
-
-def build_happening_now_json(guidebook_filename, output_filename, now=None):
-    if now is None:
-        now = time()
-
-    sessions = json.load(open(guidebook_filename))
-    sessions = sorted(sessions, key=lambda k: k['location'])
-
-    happening_now = []
-
-    for session in sessions:
-        try:
-            start = dateutil.parser.parse(session['start'])
-            finish = dateutil.parser.parse(session['finish'])
-            if now >= start and now < finish:
-                happening_now.append({
-                    'start': start.strftime("%-I:%M %p"),
-                    'name': session['name'],
-                    'location': session['location']
-                })
-        except Exception:
-            pass
-
-    save_json(happening_now, output_filename)
 
 
 def load_guidebook_json(filename):
@@ -121,6 +96,7 @@ def load_guidebook_json(filename):
             pass
 
     return sessions
+
 
 def get_now_and_soon(sessions, now=None):
     if now is None:

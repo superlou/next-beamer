@@ -1,2 +1,3 @@
 guidebook-api-python
 python-dateutil
+tzlocal
