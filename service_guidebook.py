@@ -103,7 +103,7 @@ def get_now_and_soon(sessions, now=None):
     if now is None:
         now = datetime.datetime.now(datetime.timezone.utc)
 
-    sessions = sorted(sessions, key=lambda k: k['location'])
+    sessions = sorted(sessions, key=lambda k: (k['start'], k['location']))
     happening_now = [s for s in sessions if now >= s['start'] and now < s['finish']]
 
     soon_cutoff = datetime.timedelta(hours=2)
