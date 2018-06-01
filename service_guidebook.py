@@ -122,18 +122,21 @@ def add_metadata(events, title, duration, font):
 
 
 if __name__ == '__main__':
+    now = None
+
     if len(sys.argv) > 1:
         if sys.argv[1] in ['--pull', '-p']:
             pull_from_guidebook('123236', 'guidebook.json')
             sys.exit()
+        else:
+            now = dateutil.parser.parse(sys.argv[1])
 
     font = 'RobotoCondensed-Regular.ttf'
 
     while 1:
         try:
-            # now = dateutil.parser.parse('2018-06-04T12:15:00Z')
             sessions = load_guidebook_json('guidebook.json')
-            on_now, on_soon = get_now_and_soon(sessions)
+            on_now, on_soon = get_now_and_soon(sessions, now)
             on_now = add_metadata(on_now, 'HAPPENING NOW', 5, font)
             on_soon = add_metadata(on_soon, 'COMING UP', 5, font)
             save_json(on_now, 'data_happening_now2.json', date_format="%-I:%M %p")
