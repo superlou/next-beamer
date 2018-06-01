@@ -21,7 +21,7 @@ def request_paginated(api_requestor, method, api_url):
     return results
 
 
-def pull_from_guidebook(catalog_file):
+def pull_from_guidebook(guide_id, catalog_file):
     api_key = os.environ.get('GUIDEBOOK_API_KEY')
     if not api_key:
         print('GUIDEBOOK_API_KEY environment variable not set!')
@@ -30,7 +30,8 @@ def pull_from_guidebook(catalog_file):
 
     client = api_requestor.APIRequestor(api_key)
 
-    url = 'https://builder.guidebook.com/open-api/v1/sessions/?ordering=start_time'
+    url = ('https://builder.guidebook.com/open-api/v1/'
+           'sessions/?guide={}&ordering=start_time').format(guide_id)
     sessions = request_paginated(client, 'get', url)
 
     url = 'https://builder.guidebook.com/open-api/v1/locations/'
@@ -121,7 +122,10 @@ def add_metadata(events, title, duration, font):
 
 
 if __name__ == '__main__':
-    # pull_from_guidebook('guidebook.json')
+    if len(sys.argv) > 1:
+        if sys.argv[1] in ['--pull', '-p']:
+            pull_from_guidebook('123236', 'guidebook.json')
+            sys.exit()
 
     font = 'RobotoCondensed-Regular.ttf'
 
