@@ -21,6 +21,10 @@ def request_paginated(api_requestor, method, api_url):
     return results
 
 
+def sanitize(text):
+    return text.replace(' \u2013', ',')
+
+
 def pull_from_guidebook(guide_id, catalog_file):
     api_key = os.environ.get('GUIDEBOOK_API_KEY')
     if not api_key:
@@ -30,10 +34,12 @@ def pull_from_guidebook(guide_id, catalog_file):
 
     client = api_requestor.APIRequestor(api_key)
 
+    print('Fetching sessions...')
     url = ('https://builder.guidebook.com/open-api/v1/'
            'sessions/?guide={}&ordering=start_time').format(guide_id)
     sessions = request_paginated(client, 'get', url)
 
+    print('Fetching locations...')
     url = 'https://builder.guidebook.com/open-api/v1/locations/'
     locations = request_paginated(client, 'get', url)
 
@@ -41,6 +47,7 @@ def pull_from_guidebook(guide_id, catalog_file):
         location['id']: location['name'] for location in locations
     }
 
+    print('Combining...')
     sessions_list = []
 
     for session in sessions:
@@ -50,16 +57,18 @@ def pull_from_guidebook(guide_id, catalog_file):
             location = ''
 
         data = {
-            'name': session['name'],
+            'name': sanitize(session['name']),
             'start': session['start_time'],
             'finish': session['end_time'],
-            'location': location
+            'location': sanitize(location)
         }
 
         sessions_list.append(data)
 
     with open(catalog_file, 'w') as out_file:
         json.dump(sessions_list, out_file, sort_keys=True, indent=4)
+
+    print('Done.')
 
 
 def save_json(data, filename, date_format):
