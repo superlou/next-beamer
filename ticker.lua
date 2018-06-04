@@ -37,6 +37,11 @@ function Ticker:draw()
     self.next_msg_id = self.next_msg_id + 1
   end
 
+  -- Reset back to 1 if there is only 1 message
+  if self.next_msg_id > #self.messages then
+    self.next_msg_id = 1
+  end
+
   -- Add additional TickerMsgs until they span across the viewing area
   while self:last_msg_end_x() < self.viewing_area_end do
     self.ticker_msgs[#self.ticker_msgs + 1] = TickerMsg(self.messages[self.next_msg_id],
@@ -71,7 +76,6 @@ function TickerMsg:init(text, x, y, font, size)
   self.x, self.y = x, y
   self.font = font
   self.size = size
-
   self.width = self.font:width(self.text, self.size)
 end
 
