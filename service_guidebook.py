@@ -142,12 +142,15 @@ if __name__ == '__main__':
 
     font = 'RobotoCondensed-Regular.ttf'
 
+    # Only use for testing
+    #now = dateutil.parser.parse("2018-06-08T12:46:00.000000-0400")
+
     while 1:
         try:
             sessions = load_guidebook_json('guidebook.json')
             on_now, on_soon = get_now_and_soon(sessions, now)
-            on_now = add_metadata(on_now, 'HAPPENING NOW', 5, font)
-            on_soon = add_metadata(on_soon, 'COMING UP', 5, font)
+            on_now = add_metadata(on_now, 'HAPPENING NOW', 15, font)
+            on_soon = add_metadata(on_soon, 'COMING UP', 15, font)
             save_json(on_now, 'data_happening_now2.json', date_format="%-I:%M %p")
             save_json(on_soon, 'data_happening_soon2.json', date_format="%-I:%M %p")
         except Exception as e:
