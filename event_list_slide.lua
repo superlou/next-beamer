@@ -71,7 +71,7 @@ function EventListSlide:draw()
 
   local page_time = self.super.active_time - self.duration * (page_num - 1)
 
-  local item_fade = 0.2
+  local item_fade = 0.15
   local page_clear_start_time = self.duration - #(self.pages[page_num]) * item_fade
   local clearing_page = (page_time > page_clear_start_time)
 
