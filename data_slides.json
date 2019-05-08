@@ -3,12 +3,14 @@
     {
       "id": "happening_now",
       "type": "event_list_slide",
-      "data": "data_happening_now2.json"
+      "data": "data_happening_now.json",
+      "enable": true
     },
     {
       "id": "upcoming",
       "type": "event_list_slide",
-      "data": "data_happening_soon2.json"
+      "data": "data_happening_soon2.json",
+      "enable": false
     },
     {
       "id": "announcment",

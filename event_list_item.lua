@@ -1,7 +1,11 @@
 require 'text_util'
+require 'color_util'
 local class = require '30log'
 
-local white_block = resource.create_colored_texture(1, 1, 1, 1)
+r, g, b = hex2rgb("#4b8986")
+local background = resource.create_colored_texture(r, g, b, 1)
+r, g, b = hex2rgb("#005952")
+local time_background = resource.create_colored_texture(r, g, b, 1)
 
 local EventListItem = class("EventListItem")
 
@@ -12,10 +16,9 @@ function EventListItem:init(width, height, name, start, location, font)
   self.location = location
   self.font = font
   self.period = ''
-
+  self.pad = 20
+  self.location_width = 200
   self:set_period()
-  self.name_size, self.name_y = size_text_to_width(self.name, self.font, 860, 60)
-  self.location_size, self.location_y = size_text_to_width(self.location, self.font, 400, 60)
 end
 
 function EventListItem:set_period()
@@ -35,11 +38,28 @@ function EventListItem:set_period()
 end
 
 function EventListItem:draw(x, y, alpha)
-  white_block:draw(x, y, x + self.width - 80, y + 80, alpha * 0.1)
-  local width = self.font:write(x + 20, y + 10, self.start, 60, 1, 1, 1, alpha * 1)
-  self.font:write(x + 23 + width, y + 12, self.period, 30, 1, 1, 1, alpha * 1)
-  self.font:write(x + 210, y + 10 + self.name_y, self.name, self.name_size, 1, 1, 1, alpha * 1)
-  self.font:write(x + 1100, y + 10 + self.location_y, self.location, self.location_size, 1, 1, 1, alpha * 1)
+  background:draw(x, y, x + self.width, y + 80, alpha)
+
+  local time_background_width = self.pad * 2 + self.font:width(self.start, 60) +
+        self.font:width(self.period, 30)
+
+  time_background:draw(x, y, x + time_background_width, y + 80, alpha)
+
+  local start_x = x + self.pad
+  local start_width = self.font:write(start_x, y + 10, self.start, 60, 1, 1, 1, alpha)
+
+  local period_x = start_x + 1 + start_width
+  local period_width = self.font:write(period_x, y + 35, self.period, 30, 1, 1, 1, alpha)
+
+  self.location_size, self.location_y = size_text_to_width(self.location, self.font, self.location_width, 60)
+  local location_x = x + self.width - self.pad - self.location_width
+  local r, g, b = hex2rgb("#fff7b3")
+  self.font:write(location_x, y + 10 + self.location_y, self.location, self.location_size, r, g, b, alpha)
+
+  local name_width = self.width - self.pad * 5 - start_width - period_width - self.location_width
+  self.name_size, self.name_y = size_text_to_width(self.name, self.font, name_width, 60)
+  local name_x = period_x + period_width + self.pad * 2
+  local name_width = self.font:write(name_x, y + 10 + self.name_y, self.name, self.name_size, 1, 1, 1, alpha)
 end
 
 function EventListItem:get_height()

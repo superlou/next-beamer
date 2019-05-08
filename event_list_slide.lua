@@ -11,8 +11,9 @@ local EventListItem = require 'event_list_item'
 function EventListSlide:init(x, y, width, height, data_filename)
   self.super:init()
   self.x, self.y = x, y
-  self.items_start = 150
+  self.items_start = self.y + 150
   self.width, self.height = width, height
+  self.padding = 20
   self.items = {}
   self.pages = {}
   self:reset()
@@ -28,7 +29,7 @@ function EventListSlide:init(x, y, width, height, data_filename)
     self.pages = {}
 
     for i, event in ipairs(self.events) do
-      self.items[i] = EventListItem(WIDTH, 90,
+      self.items[i] = EventListItem(self.width - self.padding * 2, 90,
                                     event.name, event.start, event.location,
                                     self.font)
     end
@@ -63,7 +64,9 @@ end
 
 function EventListSlide:draw()
   self.super:tick()
-  write_centered(self.title, 50, self.width / 2, 50, 1, 1, 1, 1)
+  local x = self.width / 2 + self.x
+  local y = self.y + 50
+  write_centered(self.title, 50, x, y, 1, 1, 1, 1)
 
   local page_num = math.floor(self.super.active_time / self.duration) + 1
   -- Handle edge case where you can get one frame past the available pages
@@ -89,14 +92,14 @@ function EventListSlide:draw()
 
     alpha = math.min(math.max(alpha, 0), 1)
 
-    item:draw(50, y, alpha)
+    item:draw(self.x + self.padding, y, alpha)
     y = y + item:get_height()
   end
 end
 
 function EventListSlide:reset()
   self.super:reset()
-  self.x = -self.width
+  -- self.x = -self.width <-- todo Not sure what this was for
 end
 
 function EventListSlide:is_done()

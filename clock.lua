@@ -7,7 +7,7 @@ function Clock:init(x, y, width, height)
   self.width, self.height = width, height
   self.font = resource.load_font("RobotoCondensed-Regular.ttf")
   self.text = ""
-  self.background = resource.create_colored_texture(0.2, 0.4, 0.6, 0.9)
+  self.background = resource.create_colored_texture(0.2, 0.4, 0.6, 0.0)
   self.padding = 0.2
 
   self.font_height = self.height * (1 - 2 * self.padding)
