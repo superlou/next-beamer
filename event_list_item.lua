@@ -2,10 +2,8 @@ require 'text_util'
 require 'color_util'
 local class = require '30log'
 
-r, g, b = hex2rgb("#4b8986")
-local background = resource.create_colored_texture(r, g, b, 1)
-r, g, b = hex2rgb("#005952")
-local time_background = resource.create_colored_texture(r, g, b, 1)
+local background = create_color_resource_hex("#4b8986")
+local time_background = create_color_resource_hex("#005952")
 
 local EventListItem = class("EventListItem")
 

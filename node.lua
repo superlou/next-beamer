@@ -18,11 +18,8 @@ local clock = Clock(0, 280, 200, 100)
 clock.text = "88:88"
 local logo = resource.load_image("logo.png")
 
-r, g, b = hex2rgb("#599e98")
-local background = resource.create_colored_texture(r, g, b, 1)
-
-r, g, b = hex2rgb('#107870')
-local left_background = resource.create_colored_texture(r, g, b, 1)
+local background = create_color_resource_hex("#599e98")
+local left_background = create_color_resource_hex("#107870")
 
 util.data_mapper{
   ["clock/set"] = function(time)
