@@ -66,6 +66,7 @@ function EventListSlide:draw()
   self.super:tick()
   local x = self.width / 2 + self.x
   local y = self.y + 50
+  write_centered(self.title, 50, x, y + 3, 0, 0, 0, 0.5)
   write_centered(self.title, 50, x, y, 1, 1, 1, 1)
 
   local page_num = math.floor(self.super.active_time / self.duration) + 1

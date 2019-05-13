@@ -2,6 +2,7 @@ require 'slide_manager'
 require 'color_util'
 Ticker = require 'ticker'
 Clock = require 'clock'
+flux = require 'flux'
 
 gl.setup(1600, 900)
 
@@ -35,4 +36,5 @@ function node.render()
   slide_manager:draw()
   ticker:draw()
   clock:draw()
+  flux.update(0.0167)
 end

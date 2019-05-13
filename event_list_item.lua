@@ -3,7 +3,8 @@ require 'color_util'
 local class = require '30log'
 
 local background = create_color_resource_hex("#4b8986")
-local time_background = create_color_resource_hex("#005952")
+local shadow = create_color_resource_hex("#005952")
+local time_background = create_color_resource_hex("#004942")
 
 local EventListItem = class("EventListItem")
 
@@ -36,6 +37,7 @@ function EventListItem:set_period()
 end
 
 function EventListItem:draw(x, y, alpha)
+  shadow:draw(x, y, x + self.width, y + 83, alpha * 0.8)
   background:draw(x, y, x + self.width, y + 80, alpha)
 
   local time_background_width = self.pad * 2 + self.font:width(self.start, 60) +
