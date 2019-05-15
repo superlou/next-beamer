@@ -11,9 +11,9 @@ local EventListItem = require 'event_list_item'
 function EventListSlide:init(x, y, width, height, data_filename)
   self.super:init()
   self.x, self.y = x, y
-  self.items_start = self.y + 150
+  self.items_start = self.y + 135
   self.width, self.height = width, height
-  self.padding = 20
+  self.padding = 30
   self.items = {}
   self.pages = {}
   self:reset()
@@ -29,7 +29,7 @@ function EventListSlide:init(x, y, width, height, data_filename)
     self.pages = {}
 
     for i, event in ipairs(self.events) do
-      self.items[i] = EventListItem(self.width - self.padding * 2, 90,
+      self.items[i] = EventListItem(self.width - self.padding * 2, 80,
                                     event.name, event.start, event.location,
                                     self.font)
     end
@@ -64,10 +64,12 @@ end
 
 function EventListSlide:draw()
   self.super:tick()
-  local x = self.width / 2 + self.x
-  local y = self.y + 50
-  write_centered(self.title, 50, x, y + 3, 0, 0, 0, 0.5)
-  write_centered(self.title, 50, x, y, 1, 1, 1, 1)
+  local x = self.x + self.padding
+  local y = self.y + self.padding + 20
+  -- write_centered_font(self.title, 50, x, y + 3, 0, 0, 0, 0.5, self.font)
+  -- write_centered_font(self.title, 50, x, y, 1, 1, 1, 1, self.font)
+  self.font:write(x, y + 3, self.title, 64, 0, 0, 0, 0.5)
+  self.font:write(x, y, self.title, 64, 1, 1, 1, 1)
 
   local page_num = math.floor(self.super.active_time / self.duration) + 1
   -- Handle edge case where you can get one frame past the available pages

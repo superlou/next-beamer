@@ -6,6 +6,12 @@ function write_centered(text, size, x_pos, y, r, g, b, a)
   font:write(x, y, text, size, r, g, b, a)
 end
 
+function write_centered_font(text, size, x_pos, y, r, g, b, a, font)
+  local width = font:width(text, size)
+  local x = x_pos - width / 2
+  font:write(x, y, text, size, r, g, b, a)
+end
+
 function split_newlines(str)
   local t = {}
   local function helper(line)

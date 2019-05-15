@@ -19,7 +19,7 @@ local clock = Clock(0, 280, 200, 100)
 clock.text = "88:88"
 local logo = resource.load_image("logo.png")
 
-local background = create_color_resource_hex("#599e98")
+local background = create_color_resource_hex("#5c987b")
 local left_background = create_color_resource_hex("#107870")
 
 util.data_mapper{
