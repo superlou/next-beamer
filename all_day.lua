@@ -29,7 +29,7 @@ function AllDayPanel:draw()
   for index, item in ipairs(self.items) do
     local i = index - 1
 
-    item:draw(self.x, self.y + i * 52, 1)
+    item:draw(self.x, self.y + i * 57, 1)
   end
 end
 

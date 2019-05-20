@@ -16,8 +16,8 @@ end
 
 local slide_manager = SlideManager(480, 0, WIDTH - 480, 800, 'data_slides.json')
 local ticker = Ticker("data_ticker.json", 0, 800, WIDTH, 100)
-local clock = Clock(0, 0, 200, 100)
-clock.text = "88:88"
+local clock = Clock(55, 0, 200, 100)
+clock.text = "88:88 ZM"
 local logo = resource.load_image("logo.png")
 local all_day_panel = AllDayPanel(0, 100, 480, 800, 'data_all_day.json')
 

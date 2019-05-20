@@ -2,6 +2,13 @@
   "font": "Gudea-Bold.ttf",
   "events": [
     {
+      "name": "Open Gaming",
+      "location": "402",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
       "name": "AnimeNEXT LARP",
       "location": "404",
       "time1": "Closes at",
