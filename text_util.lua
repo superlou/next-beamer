@@ -63,3 +63,8 @@ function size_text_to_width(text, font, width, max_size)
 
   return new_size, y_offset
 end
+
+function draw_text_in_window(text, x, y, w, h, max_size, font, r, g, b, a, pad)
+  local font_size, y_offset = size_text_to_width(text, font, w - 2 * pad, max_size)
+  font:write(x + pad, y + y_offset, text, font_size, r, g, b, a)
+end

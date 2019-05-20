@@ -1,0 +1,26 @@
+{
+  "font": "Gudea-Bold.ttf",
+  "events": [
+    {
+      "name": "AnimeNEXT LARP",
+      "location": "404",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Photo Booth",
+      "location": "406",
+      "time1": "Opens at",
+      "time2": "1:00 PM",
+      "running": false
+    },
+    {
+      "name": "AnimeNEXT Charity Auction",
+      "location": "407",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    }
+  ]
+}
