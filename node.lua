@@ -19,7 +19,7 @@ local ticker = Ticker("data_ticker.json", 0, 800, WIDTH, 100)
 local clock = Clock(55, 0, 200, 100)
 clock.text = "88:88 ZM"
 local logo = resource.load_image("logo.png")
-local all_day_panel = AllDayPanel(0, 100, 480, 800, 'data_all_day.json')
+local all_day_panel = AllDayPanel(0, 100, 480, 700, 'data_all_day.json')
 
 local background = create_color_resource_hex("#5c987b")
 local left_background = create_color_resource_hex("#198b80")
@@ -31,15 +31,17 @@ util.data_mapper{
   end
 }
 
+local dt = 1 / 60
+
 function node.render()
   gl.clear(0.0, 0.0, 0.0, 1)
   background:draw(0, 0, 1600, 800, 1)
   left_background:draw(0, 0, 480, 800)
   -- logo:draw(0, 0, 460, 366)
   slide_manager:draw()
-  all_day_panel:draw()
+  all_day_panel:draw(dt)
   divider:draw(480, 0, 482, 800)
   ticker:draw()
   clock:draw()
-  flux.update(0.0167)
+  flux.update(dt)
 end
