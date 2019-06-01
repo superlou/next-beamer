@@ -10,6 +10,9 @@ from time import sleep, time
 from guidebook import api_requestor
 
 
+tz = get_localzone()
+
+
 def request_paginated(api_requestor, method, api_url):
     response = api_requestor.request(method, api_url)
     results = response['results']
@@ -74,7 +77,7 @@ def pull_from_guidebook(guide_id, catalog_file):
 def save_json(data, filename, date_format):
     def custom_serializer(x):
         if isinstance(x, datetime.datetime):
-            return x.astimezone(get_localzone()).strftime(date_format)
+            return x.astimezone(tz).strftime(date_format)
         raise TypeError("Unknown type")
 
     json_string = json.dumps(data, sort_keys=True, indent=4,
@@ -108,17 +111,54 @@ def load_guidebook_json(filename):
     return sessions
 
 
-def get_now_and_soon(sessions, now=None):
-    if now is None:
-        now = datetime.datetime.now(datetime.timezone.utc)
+def session_is_all_day(s, now):
+    all_day_threshold = datetime.timedelta(hours=4.5)
+    return ((s['finish'] - s['start']) > all_day_threshold and
+           s['start'].date() == now.date())
 
-    sessions = sorted(sessions, key=lambda k: (k['start'], k['location']))
-    happening_now = [s for s in sessions if now >= s['start'] and now < s['finish']]
+
+def session_is_running(s, now):
+    return now >= s['start'] and now < s['finish']
+
+
+def session_started(s, now):
+    return now >= s['start']
+
+
+def session_finished(s, now):
+    return now >= s['finish']
+
+
+def get_now_and_soon(sessions, now):
+    sessions = [s for s in sessions if not session_is_all_day(s, now)]
+
+    happening_now = [s for s in sessions if session_is_running(s, now)]
 
     soon_cutoff = datetime.timedelta(hours=2)
-    soon = [s for s in sessions if s['start'] > now and (s['start'] - now) < soon_cutoff]
+    soon = [s for s in sessions
+            if s['start'] > now and (s['start'] - now) < soon_cutoff]
 
     return happening_now, soon
+
+
+def get_all_day(sessions, now):
+    sessions = [s for s in sessions if session_is_all_day(s, now)]
+
+    for session in sessions:
+        if session_is_running(session, now):
+            session['time1'] = 'Closes at'
+            session['time2'] = session['finish'].astimezone(tz).strftime('%-I:%M %p')
+        elif not session_started(session, now):
+            session['time1'] = 'Opens at'
+            session['time2'] = session['start'].astimezone(tz).strftime('%-I:%M %p')
+        elif session_finished(session, now):
+            session['time1'] = 'Closed'
+            session['time2'] = ''
+
+    return {
+        'font': 'Gudea-Bold.ttf',
+        'events': sessions
+    }
 
 
 def add_metadata(events, title, duration, font):
@@ -128,6 +168,23 @@ def add_metadata(events, title, duration, font):
         'font': font,
         'events': events
     }
+
+
+def update(now=None):
+    if now is None:
+        now = datetime.datetime.now(datetime.timezone.utc)
+
+    sessions = load_guidebook_json('guidebook.json')
+    sessions = sorted(sessions, key=lambda k: (k['start'], k['location']))
+    on_now, on_soon = get_now_and_soon(sessions, now)
+    all_day = get_all_day(sessions, now)
+
+    on_now = add_metadata(on_now, 'HAPPENING NOW', 15, font)
+    on_soon = add_metadata(on_soon, 'COMING UP', 15, font)
+
+    save_json(on_now, 'data_happening_now2.json', date_format="%-I:%M %p")
+    save_json(on_soon, 'data_happening_soon2.json', date_format="%-I:%M %p")
+    save_json(all_day, 'data_all_day2.json', date_format="%-I:%M %p")
 
 
 if __name__ == '__main__':
@@ -140,19 +197,14 @@ if __name__ == '__main__':
         else:
             now = dateutil.parser.parse(sys.argv[1])
 
-    font = 'RobotoCondensed-Regular.ttf'
+    font = 'Gudea-Bold.ttf'
 
     # Only use for testing
     #now = dateutil.parser.parse("2018-06-08T12:46:00.000000-0400")
 
     while 1:
         try:
-            sessions = load_guidebook_json('guidebook.json')
-            on_now, on_soon = get_now_and_soon(sessions, now)
-            on_now = add_metadata(on_now, 'HAPPENING NOW', 15, font)
-            on_soon = add_metadata(on_soon, 'COMING UP', 15, font)
-            save_json(on_now, 'data_happening_now2.json', date_format="%-I:%M %p")
-            save_json(on_soon, 'data_happening_soon2.json', date_format="%-I:%M %p")
+            update(now)
         except Exception as e:
             print(traceback.format_exc())
 
