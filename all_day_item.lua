@@ -39,18 +39,18 @@ function AllDayItem:draw(x, y, alpha)
   local name_bg = name_bg_not_running
   local location_bg = location_bg_not_running
   local separator = separator_not_running
-  local text_alpha = 0.8
+  local text_alpha = 0.8 * alpha
 
   if self.running then
     time_bg = time_bg_running
     name_bg = name_bg_running
     location_bg = location_bg_running
     separator = separator_running
-    text_alpha = 1.0
+    text_alpha = 1.0 * alpha
   end
 
   local x_pos = x
-  time_bg:draw(x_pos, y, x_pos + self.time_width, y + h)
+  time_bg:draw(x_pos, y, x_pos + self.time_width, y + h, alpha)
   draw_text_in_window(self.time1,
                       x_pos, y - 11, self.time_width, h,
                       h, self.font, 1, 1, 1, text_alpha, 10)
@@ -59,16 +59,16 @@ function AllDayItem:draw(x, y, alpha)
                       h, self.font, 1, 1, 1, text_alpha, 10)
   x_pos = x_pos + self.time_width
 
-  name_bg:draw(x_pos, y, x_pos + self.name_width, y + h)
+  name_bg:draw(x_pos, y, x_pos + self.name_width, y + h, alpha)
   draw_text_in_window(self.name,
                       x_pos, y + 1, self.name_width, h,
                       h, self.font, 1, 1, 1, text_alpha, 10)
 
   x_pos = x_pos + self.name_width
-  separator:draw(x_pos, y, x_pos + self.separator_width, y + h)
+  separator:draw(x_pos, y, x_pos + self.separator_width, y + h, alpha)
 
   x_pos = x_pos + self.separator_width
-  location_bg:draw(x_pos, y, x_pos + self.location_width, y + h)
+  location_bg:draw(x_pos, y, x_pos + self.location_width, y + h, alpha)
   draw_text_in_window(self.location,
                       x_pos - 5, y + 1, self.location_width, h,
                       h, self.font, 1, 1, 1, text_alpha, 10)

@@ -44,10 +44,20 @@ function AllDayPanel:init(x, y, width, height, data_filename)
       table.insert(self.pages, page_items)
     end
   end)
+
+  self.alpha = 1
 end
 
 function AllDayPanel:draw(dt)
   self.t = self.t + dt
+
+  if self.t <= 0.5 then
+    self.alpha = 2 * self.t
+  end
+
+  if self.t > 7.5 then
+    self.alpha = 2 * (8 - self.t)
+  end
 
   if self.t > 8 then
     self.t = 0
@@ -61,7 +71,7 @@ function AllDayPanel:draw(dt)
   for index, item in ipairs(self.pages[self.active_page]) do
     local i = index - 1
 
-    item:draw(self.x, self.y + i * self.item_total_height, 1)
+    item:draw(self.x, self.y + i * self.item_total_height, self.alpha)
   end
 end
 
