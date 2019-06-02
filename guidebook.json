@@ -1,1 +1,2048 @@
-[]
+[
+    {
+        "finish": "2019-06-07T15:00:00.000000+0000",
+        "location": "308",
+        "name": "Posing 101",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:00:00.000000+0000",
+        "location": "320",
+        "name": "Nadia The Secret of Blue Water Ep. 1-4",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:00:00.000000+0000",
+        "location": "419",
+        "name": "Manga Library",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T04:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "UGL Video Gaming - Freeplay",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T15:00:00.000000+0000",
+        "location": "310",
+        "name": "Thunderbolt Fantasy and You",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T15:45:00.000000+0000",
+        "location": "322",
+        "name": "Hunter x Hunter: Phantom Rouge",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:00:00.000000+0000",
+        "location": "321",
+        "name": "Bakuon Ep. 1-4",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Anime Car Show",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:00:00.000000+0000",
+        "location": "420",
+        "name": "Cosplay Repair",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T06:00:00.000000+0000",
+        "location": "319",
+        "name": "AnimeNEXT Attendee Lounge",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T15:00:00.000000+0000",
+        "location": "307",
+        "name": "Knights of the Round",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "PPG Gaming Area Open",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T15:00:00.000000+0000",
+        "location": "304",
+        "name": "Intro to Idol Boys",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:00:00.000000+0000",
+        "location": "401",
+        "name": "Open Mic",
+        "start": "2019-06-07T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:00:00.000000+0000",
+        "location": "303",
+        "name": "Zen and the Art of Meditation with Lex Lang & Sandy Fox",
+        "start": "2019-06-07T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Fighting Ex Layer (PS4) Non-Streamed",
+        "start": "2019-06-07T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:00:00.000000+0000",
+        "location": "317",
+        "name": "Anyone Can Draw!",
+        "start": "2019-06-07T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Tabletop Gaming - Freeplay and Demos",
+        "start": "2019-06-07T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:00:00.000000+0000",
+        "location": "416",
+        "name": "Charity Auction Viewing",
+        "start": "2019-06-07T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:15:00.000000+0000",
+        "location": "304",
+        "name": "Japanese Car Culture, Anime and the art of the drift",
+        "start": "2019-06-07T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:15:00.000000+0000",
+        "location": "307",
+        "name": "Beyond the Seams: Advanced Finishing Techniques",
+        "start": "2019-06-07T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:15:00.000000+0000",
+        "location": "308",
+        "name": "Beginners Guide to Crossplay",
+        "start": "2019-06-07T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:15:00.000000+0000",
+        "location": "310",
+        "name": "All About Traditional Japanese Performance",
+        "start": "2019-06-07T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:30:00.000000+0000",
+        "location": "318",
+        "name": "Awesome Mix, Vol. 3: AMV Edition",
+        "start": "2019-06-07T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T16:30:00.000000+0000",
+        "location": "322",
+        "name": "The Last Naruto: The Movie",
+        "start": "2019-06-07T15:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T17:30:00.000000+0000",
+        "location": "302",
+        "name": "AnimeNEXT Family Feud",
+        "start": "2019-06-07T15:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "DBS Card Game Expansion Set Sealed Tournament",
+        "start": "2019-06-07T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Street Fighter V AE (PS4) Streamed",
+        "start": "2019-06-07T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:00:00.000000+0000",
+        "location": "Hall B",
+        "name": "Dealer's Room/Artist Alley",
+        "start": "2019-06-07T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:00:00.000000+0000",
+        "location": "320",
+        "name": "Chobits Ep. 1-4",
+        "start": "2019-06-07T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:00:00.000000+0000",
+        "location": "407",
+        "name": "Cosplay Meetup",
+        "start": "2019-06-07T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:00:00.000000+0000",
+        "location": "321",
+        "name": "Anonymous Noise Ep 1 -4",
+        "start": "2019-06-07T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T17:30:00.000000+0000",
+        "location": "308",
+        "name": "Cosplay For Beginners",
+        "start": "2019-06-07T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T17:30:00.000000+0000",
+        "location": "307",
+        "name": "Thrill of the Frills: Introduction to Japanese Lolita Fashion",
+        "start": "2019-06-07T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T17:30:00.000000+0000",
+        "location": "310",
+        "name": "Social Progress At 24-Cels-Per-Minute: The Pushback Against Racism Through Anime",
+        "start": "2019-06-07T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T17:30:00.000000+0000",
+        "location": "304",
+        "name": "22 Modern Manga Recommendations for Grown ups",
+        "start": "2019-06-07T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T17:45:00.000000+0000",
+        "location": "318",
+        "name": "The Cure for the Common AMV",
+        "start": "2019-06-07T16:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:00:00.000000+0000",
+        "location": "301",
+        "name": "The Art of the Ballgown",
+        "start": "2019-06-07T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:00:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Ellyn Stern, Lex Lang, Richard Epcar, Sandy Fox",
+        "start": "2019-06-07T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "On Demand Magic the Gathering Drafts Open",
+        "start": "2019-06-07T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:00:00.000000+0000",
+        "location": "421",
+        "name": "The Magic of Cosplay",
+        "start": "2019-06-07T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:30:00.000000+0000",
+        "location": "317",
+        "name": "Shodo 101",
+        "start": "2019-06-07T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:00:00.000000+0000",
+        "location": "322",
+        "name": "Liz and the Blue Bird",
+        "start": "2019-06-07T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:45:00.000000+0000",
+        "location": "308",
+        "name": "Female Mangaka: A Look at the Ladies Behind Popular Anime & Manga",
+        "start": "2019-06-07T17:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:45:00.000000+0000",
+        "location": "307",
+        "name": "The History of American Anime",
+        "start": "2019-06-07T17:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T18:45:00.000000+0000",
+        "location": "310",
+        "name": "Anime Armaments & Toon Tactics",
+        "start": "2019-06-07T17:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:00:00.000000+0000",
+        "location": "304",
+        "name": "The Best Anime Film of the Year: 1988-2018",
+        "start": "2019-06-07T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:00:00.000000+0000",
+        "location": "321",
+        "name": "Princess Principal Ep. 1-4",
+        "start": "2019-06-07T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:00:00.000000+0000",
+        "location": "318",
+        "name": "15 Years in (AMV) Hell",
+        "start": "2019-06-07T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:45:00.000000+0000",
+        "location": "302",
+        "name": "AnimeNEXT Name that Tune",
+        "start": "2019-06-07T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:45:00.000000+0000",
+        "location": "302",
+        "name": "AnimeNEXT Name that Tune",
+        "start": "2019-06-07T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:30:00.000000+0000",
+        "location": "301",
+        "name": "Japanese Music & Fashion with Kohei",
+        "start": "2019-06-07T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:30:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Josh Grelle & Max Mittelman",
+        "start": "2019-06-07T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:45:00.000000+0000",
+        "location": "303",
+        "name": "Why I moved to America with Shihori Nakane",
+        "start": "2019-06-07T18:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T19:45:00.000000+0000",
+        "location": "404",
+        "name": "Rules and Intro Meeting",
+        "start": "2019-06-07T18:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:30:00.000000+0000",
+        "location": "322",
+        "name": "Magical Girl Lyrical Nanoha The Movie 1st",
+        "start": "2019-06-07T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:30:00.000000+0000",
+        "location": "308",
+        "name": "Import Gaming 101",
+        "start": "2019-06-07T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:00:00.000000+0000",
+        "location": "317",
+        "name": "Chibi Chibi Drawing Time!",
+        "start": "2019-06-07T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Soul Caliber 6 (PS4) Non-Streamed",
+        "start": "2019-06-07T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:00:00.000000+0000",
+        "location": "310",
+        "name": "Brand-New Idol Shenanigans: Alternative J-idol Groups",
+        "start": "2019-06-07T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:00:00.000000+0000",
+        "location": "307",
+        "name": "Under quarantine: Infectious Diseases In Anime",
+        "start": "2019-06-07T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:15:00.000000+0000",
+        "location": "318",
+        "name": "Friday AMV Non-Finalists",
+        "start": "2019-06-07T19:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T20:30:00.000000+0000",
+        "location": "304",
+        "name": "Josei-muke and Otome Games",
+        "start": "2019-06-07T19:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:00:00.000000+0000",
+        "location": "405/406",
+        "name": "Hall Cosplay Judging",
+        "start": "2019-06-07T19:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:00:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Kohei Hattori",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T04:00:00.000000+0000",
+        "location": "404",
+        "name": "LARP Open",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Mortal Kombat XI (PS4) Streamed",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:00:00.000000+0000",
+        "location": "320",
+        "name": "Maison Ikkoku Ep. 1-4",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:00:00.000000+0000",
+        "location": "301",
+        "name": "Writing, Directing, and Voicing in Anime with Josh Grelle",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Dragon Ball Super Card Game: Team Battles",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:00:00.000000+0000",
+        "location": "303",
+        "name": "Reflections on Studio Ghibli with Kihara",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:00:00.000000+0000",
+        "location": "321",
+        "name": "Outbreak Company Ep. 1-4",
+        "start": "2019-06-07T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:15:00.000000+0000",
+        "location": "310",
+        "name": "The World of Eorzea - A Final Fantasy XIV Panel",
+        "start": "2019-06-07T20:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:15:00.000000+0000",
+        "location": "307",
+        "name": "Gundam for Newbies",
+        "start": "2019-06-07T20:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:30:00.000000+0000",
+        "location": "401",
+        "name": "Karaoke Roulette",
+        "start": "2019-06-07T20:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:00:00.000000+0000",
+        "location": "402/403",
+        "name": "Learn to dance the cosplay formal dance",
+        "start": "2019-06-07T20:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T21:45:00.000000+0000",
+        "location": "308",
+        "name": "Resin Crafting for Cosplay: Where to Begin",
+        "start": "2019-06-07T20:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:00:00.000000+0000",
+        "location": "304",
+        "name": "Lupin the 3rd with Richard Epcar, Ellyn Stern, Lex Lang, Sandy Fox Guests",
+        "start": "2019-06-07T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:30:00.000000+0000",
+        "location": "302",
+        "name": "Banana Fish Panel and Q&A MAPPA",
+        "start": "2019-06-07T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:00:00.000000+0000",
+        "location": "317",
+        "name": "Origami 101",
+        "start": "2019-06-07T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:15:00.000000+0000",
+        "location": "303",
+        "name": "Cosplay Panel with LeChat",
+        "start": "2019-06-07T21:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:30:00.000000+0000",
+        "location": "322",
+        "name": "Summer Wars",
+        "start": "2019-06-07T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:30:00.000000+0000",
+        "location": "301",
+        "name": "Q&A CellChrome",
+        "start": "2019-06-07T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:30:00.000000+0000",
+        "location": "307",
+        "name": "Toonami generations: A celebration of 20+ years",
+        "start": "2019-06-07T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T22:30:00.000000+0000",
+        "location": "310",
+        "name": "American Comics for Manga Fans",
+        "start": "2019-06-07T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:00:00.000000+0000",
+        "location": "321",
+        "name": "Den-noh Coil Ep. 1-4",
+        "start": "2019-06-07T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:30:00.000000+0000",
+        "location": "320",
+        "name": "Galaxy Fraulien Yuna OVA 1-5",
+        "start": "2019-06-07T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:30:00.000000+0000",
+        "location": "308",
+        "name": "From Square One to the Rising Sun! Your First Trip to  Japan!",
+        "start": "2019-06-07T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:30:00.000000+0000",
+        "location": "405/406",
+        "name": "Hall Cosplay Judging",
+        "start": "2019-06-07T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:30:00.000000+0000",
+        "location": "303",
+        "name": "A Day in the Life Q&A with Max Mittelman",
+        "start": "2019-06-07T22:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:30:00.000000+0000",
+        "location": "304",
+        "name": "Live Drawing & Presentation with Maru-san & Fukuoka-san",
+        "start": "2019-06-07T22:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:30:00.000000+0000",
+        "location": "318",
+        "name": "The Ultimate Fabric Guide",
+        "start": "2019-06-07T22:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:45:00.000000+0000",
+        "location": "310",
+        "name": "Here comes the Bride! ~ The Red Weddings And Notorious Nupitals of Animation",
+        "start": "2019-06-07T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T05:00:00.000000+0000",
+        "location": "401",
+        "name": "Open Mic",
+        "start": "2019-06-07T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:45:00.000000+0000",
+        "location": "307",
+        "name": "Meme Culture",
+        "start": "2019-06-07T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-07T23:00:00.000000+0000",
+        "location": "302",
+        "name": "AMV Contest Screening Seating",
+        "start": "2019-06-07T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "402/403",
+        "name": "Totally Wicked 80s Cosplay Prom",
+        "start": "2019-06-07T23:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "302",
+        "name": "AMV Contest Screening",
+        "start": "2019-06-07T23:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Dragon Ball FighterZ (PS4)  Streamed",
+        "start": "2019-06-07T23:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:00:00.000000+0000",
+        "location": "301",
+        "name": "Companies that Knew Nothing about \"Anime Fan Wants\"",
+        "start": "2019-06-07T23:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "322",
+        "name": "Accel World Infinite Burst",
+        "start": "2019-06-07T23:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:30:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Cellchrome",
+        "start": "2019-06-07T23:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:00:00.000000+0000",
+        "location": "303",
+        "name": "AnimeNEXT Jeopardy Seating",
+        "start": "2019-06-07T23:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T00:45:00.000000+0000",
+        "location": "318",
+        "name": "Beyond Visual Kei: The Asian Heavy/Extreme Metal Scene",
+        "start": "2019-06-07T23:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:00:00.000000+0000",
+        "location": "303",
+        "name": "AnimeNEXT Jeopardy",
+        "start": "2019-06-08T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "304",
+        "name": "May I see the Wine List: Manga/Anime About Liquor",
+        "start": "2019-06-08T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:00:00.000000+0000",
+        "location": "321",
+        "name": "Cross Ange Rondo of Angel and Dragon Ep. 1-4",
+        "start": "2019-06-08T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "307",
+        "name": "Cosplay Children and Convention Community: The Growing Age Gap",
+        "start": "2019-06-08T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "308",
+        "name": "Genderqueer Representation in Anime",
+        "start": "2019-06-08T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T01:00:00.000000+0000",
+        "location": "310",
+        "name": "ACE: The Final Frontier Exploring Asexual characters in a Hypersexualized Media",
+        "start": "2019-06-08T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:30:00.000000+0000",
+        "location": "320",
+        "name": "Video Girl Ai OVA 1-6",
+        "start": "2019-06-08T00:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:00:00.000000+0000",
+        "location": "322",
+        "name": "The Boy and The Beast",
+        "start": "2019-06-08T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:59:00.000000+0000",
+        "location": "Hall C",
+        "name": "Jump Force (PS4) Non-Streamed",
+        "start": "2019-06-08T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:45:00.000000+0000",
+        "location": "302",
+        "name": "Bad Anime, Bad!!",
+        "start": "2019-06-08T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:15:00.000000+0000",
+        "location": "308",
+        "name": "[adult swim] Revolution",
+        "start": "2019-06-08T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:15:00.000000+0000",
+        "location": "307",
+        "name": "Fright Night: A History of Horror Manga",
+        "start": "2019-06-08T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:15:00.000000+0000",
+        "location": "310",
+        "name": "Wild Yaoi: Cat boys, Fox Demons, and Wolf shifters - Oh my! (18+)",
+        "start": "2019-06-08T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T05:30:00.000000+0000",
+        "location": "Hall A",
+        "name": "Dance",
+        "start": "2019-06-08T01:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T02:45:00.000000+0000",
+        "location": "318",
+        "name": "AMV Sing Along AFTER DARK",
+        "start": "2019-06-08T01:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T04:00:00.000000+0000",
+        "location": "321",
+        "name": "Ladies vs Butlers Ep. 1-4",
+        "start": "2019-06-08T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:30:00.000000+0000",
+        "location": "304",
+        "name": "Otome Drama CD: Romance Audio for Maidenly Hearts (18+)",
+        "start": "2019-06-08T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T04:00:00.000000+0000",
+        "location": "301",
+        "name": "Fanservice Fiesta Hentai Panel (18+)",
+        "start": "2019-06-08T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:30:00.000000+0000",
+        "location": "310",
+        "name": "Gaijins! Foreigners in Manga and Anime!",
+        "start": "2019-06-08T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T04:45:00.000000+0000",
+        "location": "303",
+        "name": "AnimeNEXT 18+ Dating Game Baggage (18+)",
+        "start": "2019-06-08T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:30:00.000000+0000",
+        "location": "308",
+        "name": "Cartoons Behaving Drunkenly (18+)",
+        "start": "2019-06-08T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:00:00.000000+0000",
+        "location": "402/403",
+        "name": "Cosplay Burlesque Seating",
+        "start": "2019-06-08T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T03:30:00.000000+0000",
+        "location": "307",
+        "name": "403 File File Forbidden (18+)",
+        "start": "2019-06-08T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T04:00:00.000000+0000",
+        "location": "302",
+        "name": "Richard Epcar's Famous Outtake Panel (18+)",
+        "start": "2019-06-08T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T05:00:00.000000+0000",
+        "location": "402/403",
+        "name": "Cosplay Burlesque (18+)",
+        "start": "2019-06-08T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T05:00:00.000000+0000",
+        "location": "322",
+        "name": "Vexille",
+        "start": "2019-06-08T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T05:00:00.000000+0000",
+        "location": "320",
+        "name": "Ginrei Special",
+        "start": "2019-06-08T03:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T04:45:00.000000+0000",
+        "location": "304",
+        "name": "Japanese Confections: Desserts (and more!)...After Dark! (18+)",
+        "start": "2019-06-08T03:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T05:00:00.000000+0000",
+        "location": "321",
+        "name": "Hentai (TBA) (18+)",
+        "start": "2019-06-08T04:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T06:00:00.000000+0000",
+        "location": "318",
+        "name": "SenpaiNYC Games: Anime Press Your Luck",
+        "start": "2019-06-08T04:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T15:30:00.000000+0000",
+        "location": "318",
+        "name": "Saturday A.M. AMV Non-Finalists",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T15:00:00.000000+0000",
+        "location": "304",
+        "name": "Cosplaying with Disabilities",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "404",
+        "name": "LARP Open",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Anime Car Show",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:00:00.000000+0000",
+        "location": "420",
+        "name": "Cosplay Repair",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T15:00:00.000000+0000",
+        "location": "307",
+        "name": "Pepakura: The Art of Papercraft",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:00:00.000000+0000",
+        "location": "419",
+        "name": "Manga Library",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:00:00.000000+0000",
+        "location": "407",
+        "name": "Cosplay Meetup",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "PPG Gaming Area Open",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:00:00.000000+0000",
+        "location": "421",
+        "name": "The Magic of Cosplay",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:00:00.000000+0000",
+        "location": "401",
+        "name": "Open Mic",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:00:00.000000+0000",
+        "location": "405/406",
+        "name": "Hall Cosplay Judging",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:00:00.000000+0000",
+        "location": "320",
+        "name": "Wedding Peach Eps 1 - 5",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T15:30:00.000000+0000",
+        "location": "322",
+        "name": "Hunter x Hunter: The Last Mission",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:00:00.000000+0000",
+        "location": "321",
+        "name": "Flying Witch Eps 1 - 4",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T04:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "UGL Video Gaming - Freeplay",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:00:00.000000+0000",
+        "location": "320",
+        "name": "Wedding Peach Eps 1 - 5",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:00:00.000000+0000",
+        "location": "Hall B",
+        "name": "Dealer's Room/Artist Alley",
+        "start": "2019-06-08T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T15:30:00.000000+0000",
+        "location": "301",
+        "name": "Experiences As An Anime Singer Songwriter with Shihori Nakane",
+        "start": "2019-06-08T14:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T15:30:00.000000+0000",
+        "location": "303",
+        "name": "Learning Japanese Class with Kohei",
+        "start": "2019-06-08T14:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T15:45:00.000000+0000",
+        "location": "308",
+        "name": "Cosplay on a Budget",
+        "start": "2019-06-08T14:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Tabletop Gaming - Freeplay and Demos",
+        "start": "2019-06-08T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:30:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Ellyn Stern, Lex Lang, Richard Epcar, Sandy Fox",
+        "start": "2019-06-08T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Guilty Gear Xrd Rev 2 (PS4)  Non-Streamed",
+        "start": "2019-06-08T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "416",
+        "name": "Charity Auction Viewing",
+        "start": "2019-06-08T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:45:00.000000+0000",
+        "location": "307",
+        "name": "Wig Basics 101",
+        "start": "2019-06-08T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:15:00.000000+0000",
+        "location": "317",
+        "name": "How to Make an Asian Inspired Wind Chime",
+        "start": "2019-06-08T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:15:00.000000+0000",
+        "location": "310",
+        "name": "Cospositive: A Discussion of Both Mind and Body",
+        "start": "2019-06-08T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:45:00.000000+0000",
+        "location": "304",
+        "name": "Bigly Anime Trivia",
+        "start": "2019-06-08T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:30:00.000000+0000",
+        "location": "322",
+        "name": "Haikara-san: Here Comes Miss Modern Part 1",
+        "start": "2019-06-08T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:00:00.000000+0000",
+        "location": "302",
+        "name": "AMV Contest Screening Seating",
+        "start": "2019-06-08T15:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T16:45:00.000000+0000",
+        "location": "301",
+        "name": "The Best Anime Movies You Haven't Seen",
+        "start": "2019-06-08T15:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Dragon Ball Super Card Game Singles Tournament",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:00:00.000000+0000",
+        "location": "303",
+        "name": "Would You Rather: Anime Edition - General Audience",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:00:00.000000+0000",
+        "location": "320",
+        "name": "Fushigi Yugi  Eps 1 - 5",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:00:00.000000+0000",
+        "location": "302",
+        "name": "AMV Contest Screening",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:30:00.000000+0000",
+        "location": "308",
+        "name": "Child Soldiers Then and Now: A Look at the Historical and Modern Impact of the Shonen Military Narrative",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:00:00.000000+0000",
+        "location": "318",
+        "name": "Japanese Dolls: Traditional and Contemporary",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:00:00.000000+0000",
+        "location": "321",
+        "name": "BanG Dreams Eps 1 - 4",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Tekken 7 (PS4) Streamed",
+        "start": "2019-06-08T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:15:00.000000+0000",
+        "location": "409",
+        "name": "Autographs: Shihori Nakane",
+        "start": "2019-06-08T16:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:30:00.000000+0000",
+        "location": "317",
+        "name": "Build Your Own Pokeball Habitat",
+        "start": "2019-06-08T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:30:00.000000+0000",
+        "location": "310",
+        "name": "100 Years of Yuri",
+        "start": "2019-06-08T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:00:00.000000+0000",
+        "location": "405/406",
+        "name": "Hall Cosplay Judging",
+        "start": "2019-06-08T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:00:00.000000+0000",
+        "location": "Atrium",
+        "name": "Cosplay Pro Wrestling",
+        "start": "2019-06-08T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "On Demand  Magic the Gathering  Drafts Open",
+        "start": "2019-06-08T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:30:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Josh Grelle & Max Mittelman",
+        "start": "2019-06-08T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:00:00.000000+0000",
+        "location": "301",
+        "name": "Q&A DJ Heavygrinder",
+        "start": "2019-06-08T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T17:30:00.000000+0000",
+        "location": "402/403",
+        "name": "LeChat Concert Seating",
+        "start": "2019-06-08T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:15:00.000000+0000",
+        "location": "318",
+        "name": "Is it Better in Vinyl? Anime Dolls",
+        "start": "2019-06-08T17:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:45:00.000000+0000",
+        "location": "307",
+        "name": "Disability in Anime & Manga",
+        "start": "2019-06-08T17:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:45:00.000000+0000",
+        "location": "304",
+        "name": "The Insane Manga Challenge IX: Everything but the Kitchen Sink",
+        "start": "2019-06-08T17:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:30:00.000000+0000",
+        "location": "402/403",
+        "name": "LeChat Concert",
+        "start": "2019-06-08T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:30:00.000000+0000",
+        "location": "401",
+        "name": "Karaoke Contest",
+        "start": "2019-06-08T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:30:00.000000+0000",
+        "location": "322",
+        "name": "A Silent Voice",
+        "start": "2019-06-08T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:45:00.000000+0000",
+        "location": "308",
+        "name": "Advising an Anime Club: Getting Cross-Curricular",
+        "start": "2019-06-08T17:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T18:45:00.000000+0000",
+        "location": "310",
+        "name": "3D Printing for Cosplay: More Accessible Than You Think",
+        "start": "2019-06-08T17:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "320",
+        "name": "Angelic Layer Eps 1 - 4",
+        "start": "2019-06-08T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "321",
+        "name": "Chaika The Coffin Princess  Eps 1 - 4",
+        "start": "2019-06-08T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:30:00.000000+0000",
+        "location": "317",
+        "name": "EVA Foam Basics",
+        "start": "2019-06-08T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Yu-Gi-Oh! Player's Championship Qualifier",
+        "start": "2019-06-08T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:15:00.000000+0000",
+        "location": "301",
+        "name": "Star Blazers 2202: The Big Wrap-Up",
+        "start": "2019-06-08T18:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:15:00.000000+0000",
+        "location": "409",
+        "name": "Autographs: DJ Heavygrinder",
+        "start": "2019-06-08T18:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:15:00.000000+0000",
+        "location": "302",
+        "name": "Filming Cosplay Choreography with Kamen Ramen Studio",
+        "start": "2019-06-08T18:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T19:30:00.000000+0000",
+        "location": "303",
+        "name": "The Japanese Anime Music Industry Shihori Nakane",
+        "start": "2019-06-08T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "318",
+        "name": "Saturday P.M. AMV Non-Finalists",
+        "start": "2019-06-08T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "307",
+        "name": "Tales of Tales!",
+        "start": "2019-06-08T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "308",
+        "name": "Cosplay for Anyone: Body Paint and  Other FX",
+        "start": "2019-06-08T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:30:00.000000+0000",
+        "location": "304",
+        "name": "My Hero Aca-AnimeNEXT!",
+        "start": "2019-06-08T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Maru-san & Fukuoka-san",
+        "start": "2019-06-08T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Cardfight! Vanguard - Player's Championship Qualifier",
+        "start": "2019-06-08T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Mario Kart DX (Switch) Non-Streamed",
+        "start": "2019-06-08T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:00:00.000000+0000",
+        "location": "310",
+        "name": "Fate/Grand Order - A Chaldea Symposium",
+        "start": "2019-06-08T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:30:00.000000+0000",
+        "location": "302",
+        "name": "One Punch Man with Max Mittelman",
+        "start": "2019-06-08T19:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T20:30:00.000000+0000",
+        "location": "301",
+        "name": "Q&A  LeChat",
+        "start": "2019-06-08T19:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:30:00.000000+0000",
+        "location": "322",
+        "name": "The Girl Who Leapt Through Time",
+        "start": "2019-06-08T19:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "321",
+        "name": "Gosick  Eps 1 - 4",
+        "start": "2019-06-08T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:00:00.000000+0000",
+        "location": "317",
+        "name": "Live Event Etiquette in Japan",
+        "start": "2019-06-08T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "320",
+        "name": "Serial Experiments Lain  Eps 1 - 4",
+        "start": "2019-06-08T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "303",
+        "name": "Dating Games [All Ages]",
+        "start": "2019-06-08T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:00:00.000000+0000",
+        "location": "Hall A",
+        "name": "Masquerade Seating",
+        "start": "2019-06-08T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T05:00:00.000000+0000",
+        "location": "401",
+        "name": "Open Mic",
+        "start": "2019-06-08T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:15:00.000000+0000",
+        "location": "310",
+        "name": "Totally Subversive 'Toons",
+        "start": "2019-06-08T20:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:45:00.000000+0000",
+        "location": "308",
+        "name": "The Enlightened Otaku: How to Balance Fandoms & Your Life at Large",
+        "start": "2019-06-08T20:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:15:00.000000+0000",
+        "location": "318",
+        "name": "The AMV Panel (There is No Other)",
+        "start": "2019-06-08T20:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:15:00.000000+0000",
+        "location": "307",
+        "name": "Graduating Gainax",
+        "start": "2019-06-08T20:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:30:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Kihara",
+        "start": "2019-06-08T20:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T21:45:00.000000+0000",
+        "location": "301",
+        "name": "Japanese Cuisine: More than Just Sushi and Ramen",
+        "start": "2019-06-08T20:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "302",
+        "name": "Creating Voices with Josh Grelle",
+        "start": "2019-06-08T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "409",
+        "name": "Autographs: LeChat",
+        "start": "2019-06-08T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:00:00.000000+0000",
+        "location": "304",
+        "name": "Women in Anime with Ellyn Stern",
+        "start": "2019-06-08T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Super Smash Bros Ultimate (Switch) Streamed",
+        "start": "2019-06-08T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:00:00.000000+0000",
+        "location": "Hall A",
+        "name": "Masquerade",
+        "start": "2019-06-08T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:30:00.000000+0000",
+        "location": "310",
+        "name": "American Animation",
+        "start": "2019-06-08T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:30:00.000000+0000",
+        "location": "307",
+        "name": "The Rise of Anime Iconography in Pop Culture",
+        "start": "2019-06-08T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T22:30:00.000000+0000",
+        "location": "318",
+        "name": "The Magical Girl Hour",
+        "start": "2019-06-08T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:30:00.000000+0000",
+        "location": "322",
+        "name": "Tiger & Bunny The Movie:  The Rising",
+        "start": "2019-06-08T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:00:00.000000+0000",
+        "location": "317",
+        "name": "Let's Learn! Japanese 101",
+        "start": "2019-06-08T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:00:00.000000+0000",
+        "location": "320",
+        "name": "Phantom Quest Corp (Dubbed)",
+        "start": "2019-06-08T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:00:00.000000+0000",
+        "location": "301",
+        "name": "Q&A Aimi",
+        "start": "2019-06-08T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:00:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: MAPPA",
+        "start": "2019-06-08T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:00:00.000000+0000",
+        "location": "321",
+        "name": "Absolute Duo Eps 1 - 4",
+        "start": "2019-06-08T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:00:00.000000+0000",
+        "location": "308",
+        "name": "Anime Burger Time",
+        "start": "2019-06-08T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:30:00.000000+0000",
+        "location": "304",
+        "name": "Ask the Con Chairs",
+        "start": "2019-06-08T22:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:30:00.000000+0000",
+        "location": "302",
+        "name": "A Look Into J-Fashion With OZZON Japan",
+        "start": "2019-06-08T22:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:30:00.000000+0000",
+        "location": "303",
+        "name": "AnimeNEXT Match Game [All Ages]",
+        "start": "2019-06-08T22:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:45:00.000000+0000",
+        "location": "307",
+        "name": "Look Good and Feel Good for Cosplay",
+        "start": "2019-06-08T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:45:00.000000+0000",
+        "location": "318",
+        "name": "Romance AMVs",
+        "start": "2019-06-08T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-08T23:45:00.000000+0000",
+        "location": "310",
+        "name": "Just Say It Already Ep.4",
+        "start": "2019-06-08T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:45:00.000000+0000",
+        "location": "308",
+        "name": "Diversity in Western Media and Animation",
+        "start": "2019-06-08T23:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:15:00.000000+0000",
+        "location": "301",
+        "name": "The Anime Bubble of 2008: What We've Learned",
+        "start": "2019-06-08T23:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:15:00.000000+0000",
+        "location": "409",
+        "name": "Autographs: Aimi",
+        "start": "2019-06-08T23:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:30:00.000000+0000",
+        "location": "322",
+        "name": "Street  Fighter II:  The Animated Movie",
+        "start": "2019-06-08T23:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:15:00.000000+0000",
+        "location": "Hall A",
+        "name": "Cellchrome Seating",
+        "start": "2019-06-08T23:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T00:00:00.000000+0000",
+        "location": "302",
+        "name": "AMV Contest Awards Show Seating",
+        "start": "2019-06-08T23:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:00:00.000000+0000",
+        "location": "320",
+        "name": "Girls Bravo  Eps 1 - 4",
+        "start": "2019-06-09T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:00:00.000000+0000",
+        "location": "307",
+        "name": "The Best Anime Movies You'll Never See",
+        "start": "2019-06-09T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:00:00.000000+0000",
+        "location": "302",
+        "name": "AMV Contest Awards Show",
+        "start": "2019-06-09T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:00:00.000000+0000",
+        "location": "321",
+        "name": "Chivalry of a Failed Knight Eps 1 - 4",
+        "start": "2019-06-09T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:00:00.000000+0000",
+        "location": "310",
+        "name": "Intro to Retro & Import Video Game Collecting",
+        "start": "2019-06-09T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T15:59:00.000000+0000",
+        "location": "404",
+        "name": "LARP Open",
+        "start": "2019-06-09T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "BlazBlue: Cross Tag Battle Non-Streamed",
+        "start": "2019-06-09T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:45:00.000000+0000",
+        "location": "318",
+        "name": "Kanpai! Japanese/Asian Alcohol and Drinking Culture (18+)",
+        "start": "2019-06-09T00:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:45:00.000000+0000",
+        "location": "Hall A",
+        "name": "Cellchrome Concert",
+        "start": "2019-06-09T00:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:30:00.000000+0000",
+        "location": "301",
+        "name": "Why Visual Novels: Tales from a Beta Tester (18+)",
+        "start": "2019-06-09T00:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T01:30:00.000000+0000",
+        "location": "304",
+        "name": "JoJo's Posing School",
+        "start": "2019-06-09T00:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:45:00.000000+0000",
+        "location": "303",
+        "name": "AnimeNEXT Match Game: After Dark",
+        "start": "2019-06-09T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:15:00.000000+0000",
+        "location": "307",
+        "name": "Inuyasha: Feminism in a Feudal Fairy Tale",
+        "start": "2019-06-09T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:15:00.000000+0000",
+        "location": "310",
+        "name": "Explaining the \"Hens\" and the \"Ties\" (18+)",
+        "start": "2019-06-09T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:15:00.000000+0000",
+        "location": "308",
+        "name": "The Dark Side of Dating Sims, Horrors of the Deep (18+)",
+        "start": "2019-06-09T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:00:00.000000+0000",
+        "location": "322",
+        "name": "K: Missing Kings",
+        "start": "2019-06-09T01:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T02:45:00.000000+0000",
+        "location": "301",
+        "name": "Cosplay Nightmares (18+)",
+        "start": "2019-06-09T01:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:59:00.000000+0000",
+        "location": "321",
+        "name": "Castlevania  Eps 1 - 4",
+        "start": "2019-06-09T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:00:00.000000+0000",
+        "location": "318",
+        "name": "Body Modification in Cosplay 101 (18+)",
+        "start": "2019-06-09T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:59:00.000000+0000",
+        "location": "320",
+        "name": "New Cutey Honey OVA '94",
+        "start": "2019-06-09T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T04:00:00.000000+0000",
+        "location": "304",
+        "name": "Dance Under the AMVs",
+        "start": "2019-06-09T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:00:00.000000+0000",
+        "location": "317",
+        "name": "Holes in Hentai (18+)",
+        "start": "2019-06-09T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:30:00.000000+0000",
+        "location": "308",
+        "name": "Shingeki no eva or How I learned that all Anime is the same and there's no such thing as an original plot Anymore (18+)",
+        "start": "2019-06-09T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:30:00.000000+0000",
+        "location": "307",
+        "name": "GloBL: Yaoi in Japan and Worldwide (18+)",
+        "start": "2019-06-09T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T05:00:00.000000+0000",
+        "location": "310",
+        "name": "These Are a Few of My Favorite Scenes",
+        "start": "2019-06-09T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T06:30:00.000000+0000",
+        "location": "Hall A",
+        "name": "Dance",
+        "start": "2019-06-09T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T04:30:00.000000+0000",
+        "location": "302",
+        "name": "Would You Rather: Anime Edition (18+)",
+        "start": "2019-06-09T02:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T03:59:00.000000+0000",
+        "location": "405/406",
+        "name": "Cosplay Burlesque Q&A (18+)",
+        "start": "2019-06-09T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T05:00:00.000000+0000",
+        "location": "322",
+        "name": "Mazinkaiser SKL",
+        "start": "2019-06-09T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T04:30:00.000000+0000",
+        "location": "301",
+        "name": "Let's Riff a Hentai LIVE!!! (18+)",
+        "start": "2019-06-09T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T04:30:00.000000+0000",
+        "location": "303",
+        "name": "From Under The Bed: Modern Horror in Anime & Manga (18+)",
+        "start": "2019-06-09T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T04:15:00.000000+0000",
+        "location": "317",
+        "name": "Mecha Fight Club",
+        "start": "2019-06-09T03:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T04:45:00.000000+0000",
+        "location": "308",
+        "name": "2 Deep 4 You: Shows You Didn't know You Didn't Know featuring Monster Musume (18+)",
+        "start": "2019-06-09T03:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T05:00:00.000000+0000",
+        "location": "321",
+        "name": "Hentai (TBA) (18+)",
+        "start": "2019-06-09T04:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T05:00:00.000000+0000",
+        "location": "320",
+        "name": "Devil Hunter Yohko OVA",
+        "start": "2019-06-09T04:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T05:00:00.000000+0000",
+        "location": "307",
+        "name": "Ero-manga Sensei:  'Rom-com' anime gone completely bonkers (18+)",
+        "start": "2019-06-09T04:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T15:00:00.000000+0000",
+        "location": "308",
+        "name": "Cosplay for Anyone: So you wanna cosplay?",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "419",
+        "name": "Manga Library",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T15:00:00.000000+0000",
+        "location": "310",
+        "name": "How to Panel 101",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "319",
+        "name": "AnimeNEXT Attendee Lounge",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "420",
+        "name": "Cosplay Repair",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T15:30:00.000000+0000",
+        "location": "317",
+        "name": "Senpai NYC Games: Anime Hotseat",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "320",
+        "name": "Kimagure Orange Road Eps 1 - 4",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "321",
+        "name": "Alice & Zoroku Eps 1 - 4",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T15:00:00.000000+0000",
+        "location": "307",
+        "name": "Well, That\u2019s Konbini! Exploring Japanese Convenience Stores and Vending Machines",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T15:30:00.000000+0000",
+        "location": "322",
+        "name": "Sailor Moon SuperS: The Movie",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Anime Car Show",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:00:00.000000+0000",
+        "location": "421",
+        "name": "The Magic of Cosplay",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "407",
+        "name": "Cosplay Meetup",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "404",
+        "name": "LARP Open",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "401",
+        "name": "Open Mic",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "PPG Gaming Area Open",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "UGL Video Gaming - Freeplay",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "Hall B",
+        "name": "Dealer's Room/Artist Alley",
+        "start": "2019-06-09T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T15:15:00.000000+0000",
+        "location": "318",
+        "name": "Chocolate Frosted Nostalgia Bombs",
+        "start": "2019-06-09T14:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:00:00.000000+0000",
+        "location": "405/406",
+        "name": "Hall Cosplay Q&A",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "301",
+        "name": "Pok\u00e9mon Jeopardy",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Josh Grelle & Max Mittelman",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "304",
+        "name": "Charity Auction",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "302",
+        "name": "Ghost in the Shell with Richard Epcar",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:00:00.000000+0000",
+        "location": "303",
+        "name": "Creatures in Features with Voice Actors Lex Lang and Sandy Fox",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "Hall C",
+        "name": "Tabletop Gaming - Freeplay and Demos",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:00:00.000000+0000",
+        "location": "Atrium",
+        "name": "Cosplay Chess",
+        "start": "2019-06-09T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:15:00.000000+0000",
+        "location": "307",
+        "name": "Western Classical Music in Anime and Japanese Pop Culture",
+        "start": "2019-06-09T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:15:00.000000+0000",
+        "location": "310",
+        "name": "State of the Anime: A Recap of the Year That Was",
+        "start": "2019-06-09T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:15:00.000000+0000",
+        "location": "308",
+        "name": "Top 10 Mighty Morphin Power Rangers Villains",
+        "start": "2019-06-09T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:30:00.000000+0000",
+        "location": "318",
+        "name": "AMV Contest Encore (non-voting)",
+        "start": "2019-06-09T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:00:00.000000+0000",
+        "location": "322",
+        "name": "Wolf Children",
+        "start": "2019-06-09T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T20:00:00.000000+0000",
+        "location": "404",
+        "name": "LARP Finale",
+        "start": "2019-06-09T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T16:30:00.000000+0000",
+        "location": "402/403",
+        "name": "Kohei Hattori & Shihori Nakane Concert (Seating)",
+        "start": "2019-06-09T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "321",
+        "name": "Listen To Me, Girls. I Am Your Father! Eps 1 - 4",
+        "start": "2019-06-09T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "320",
+        "name": "Marmalade Boy  Eps 1 - 4",
+        "start": "2019-06-09T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:45:00.000000+0000",
+        "location": "302",
+        "name": "Ready Player...One Punch Man? with Max Mittelman",
+        "start": "2019-06-09T16:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:15:00.000000+0000",
+        "location": "303",
+        "name": "Q&A Josh Grelle",
+        "start": "2019-06-09T16:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:30:00.000000+0000",
+        "location": "308",
+        "name": "404 File Not Found: The Videos the Internet Forgot",
+        "start": "2019-06-09T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:30:00.000000+0000",
+        "location": "307",
+        "name": "Poetry in Anime: The Power of Words in a Visual Medium",
+        "start": "2019-06-09T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:15:00.000000+0000",
+        "location": "402/403",
+        "name": "Kohei Hattori & Shihori Nakane Concert",
+        "start": "2019-06-09T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:30:00.000000+0000",
+        "location": "310",
+        "name": "The New Wave Of Animated Royalty (\u2026or \"Look, Everybody! It's The Princess\u2026RUN FOR YOUR LIVES!!\")",
+        "start": "2019-06-09T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:30:00.000000+0000",
+        "location": "408",
+        "name": "Autographs: Ellyn Stern, Lex Lang, Richard Epcar, Sandy Fox",
+        "start": "2019-06-09T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T17:30:00.000000+0000",
+        "location": "317",
+        "name": "Hanafuda: How to Play",
+        "start": "2019-06-09T16:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:00:00.000000+0000",
+        "location": "301",
+        "name": "Anime Openings & Endings THE MAN Doesn't Want You to See!",
+        "start": "2019-06-09T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:30:00.000000+0000",
+        "location": "322",
+        "name": "Maquia: When Promised Flower Blooms",
+        "start": "2019-06-09T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:45:00.000000+0000",
+        "location": "318",
+        "name": "AMV Sing-Along!",
+        "start": "2019-06-09T17:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:45:00.000000+0000",
+        "location": "307",
+        "name": "The Gaikokujin NOT Gaijin Guide to Japan",
+        "start": "2019-06-09T17:45:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:30:00.000000+0000",
+        "location": "321",
+        "name": "Strawberry Marshmallow OVA",
+        "start": "2019-06-09T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T18:30:00.000000+0000",
+        "location": "Hall A",
+        "name": "Aimi Concert Seating",
+        "start": "2019-06-09T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "320",
+        "name": "Shinesman",
+        "start": "2019-06-09T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "310",
+        "name": "Animation In Anime",
+        "start": "2019-06-09T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T19:00:00.000000+0000",
+        "location": "308",
+        "name": "The Art of Stock Footage",
+        "start": "2019-06-09T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T20:00:00.000000+0000",
+        "location": "Hall A",
+        "name": "Aimi Concert",
+        "start": "2019-06-09T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T20:00:00.000000+0000",
+        "location": "302",
+        "name": "AMV Winners Replay",
+        "start": "2019-06-09T19:15:00.000000+0000"
+    },
+    {
+        "finish": "2019-06-09T21:00:00.000000+0000",
+        "location": "302",
+        "name": "Con Feedback",
+        "start": "2019-06-09T20:00:00.000000+0000"
+    }
+]

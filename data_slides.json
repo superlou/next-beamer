@@ -9,8 +9,8 @@
     {
       "id": "upcoming",
       "type": "event_list_slide",
-      "data": "data_happening_soon2.json",
-      "enable": false
+      "data": "data_happening_soon.json",
+      "enable": true
     },
     {
       "id": "announcment",

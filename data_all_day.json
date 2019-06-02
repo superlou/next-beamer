@@ -1,145 +1,131 @@
 {
-  "font": "Gudea-Bold.ttf",
-  "events": [
-    {
-      "name": "Open Gaming",
-      "location": "402",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "AnimeNEXT LARP",
-      "location": "404",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Photo Booth",
-      "location": "406",
-      "time1": "Opens at",
-      "time2": "1:00 PM",
-      "running": false
-    },
-    {
-      "name": "AnimeNEXT Charity Auction",
-      "location": "407",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Event 5",
-      "location": "402",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Event Six",
-      "location": "404",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": false
-    },
-    {
-      "name": "Event Siete",
-      "location": "406",
-      "time1": "Opens at",
-      "time2": "1:00 PM",
-      "running": false
-    },
-    {
-      "name": "No More Events",
-      "location": "407",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Please, I Can't Even",
-      "location": "402",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Tolerate Anything More",
-      "location": "404",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Need to Complete the List",
-      "location": "406",
-      "time1": "Opens at",
-      "time2": "1:00 PM",
-      "running": false
-    },
-    {
-      "name": "Event 1010",
-      "location": "407",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Event 2020",
-      "location": "402",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Sealab 2021",
-      "location": "404",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Overflow Event",
-      "location": "406",
-      "time1": "Opens at",
-      "time2": "1:00 PM",
-      "running": false
-    },
-    {
-      "name": "Stil Going Now",
-      "location": "407",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Closed Gaming",
-      "location": "402",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Exclusive Exclusivity",
-      "location": "404",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    },
-    {
-      "name": "Almost the Last One",
-      "location": "406",
-      "time1": "Opens at",
-      "time2": "1:00 PM",
-      "running": false
-    },
-    {
-      "name": "The Last Event",
-      "location": "407",
-      "time1": "Closes at",
-      "time2": "5:00 PM",
-      "running": true
-    }
-  ]
+    "events": [
+        {
+            "finish": "2:00 AM",
+            "location": "319",
+            "name": "AnimeNEXT Attendee Lounge",
+            "running": true,
+            "start": "10:00 AM",
+            "time1": "Closes at",
+            "time2": "2:00 AM"
+        },
+        {
+            "finish": "4:00 PM",
+            "location": "401",
+            "name": "Open Mic",
+            "running": true,
+            "start": "10:00 AM",
+            "time1": "Closes at",
+            "time2": "4:00 PM"
+        },
+        {
+            "finish": "10:00 PM",
+            "location": "419",
+            "name": "Manga Library",
+            "running": true,
+            "start": "10:00 AM",
+            "time1": "Closes at",
+            "time2": "10:00 PM"
+        },
+        {
+            "finish": "8:00 PM",
+            "location": "420",
+            "name": "Cosplay Repair",
+            "running": true,
+            "start": "10:00 AM",
+            "time1": "Closes at",
+            "time2": "8:00 PM"
+        },
+        {
+            "finish": "12:00 AM",
+            "location": "Hall C",
+            "name": "UGL Video Gaming - Freeplay",
+            "running": true,
+            "start": "10:00 AM",
+            "time1": "Closes at",
+            "time2": "12:00 AM"
+        },
+        {
+            "finish": "8:00 PM",
+            "location": "Hall C",
+            "name": "Anime Car Show",
+            "running": true,
+            "start": "10:00 AM",
+            "time1": "Closes at",
+            "time2": "8:00 PM"
+        },
+        {
+            "finish": "11:00 PM",
+            "location": "Hall C",
+            "name": "PPG Gaming Area Open",
+            "running": true,
+            "start": "10:00 AM",
+            "time1": "Closes at",
+            "time2": "11:00 PM"
+        },
+        {
+            "finish": "6:00 PM",
+            "location": "416",
+            "name": "Charity Auction Viewing",
+            "running": true,
+            "start": "11:00 AM",
+            "time1": "Closes at",
+            "time2": "6:00 PM"
+        },
+        {
+            "finish": "5:00 PM",
+            "location": "Hall C",
+            "name": "Tabletop Gaming - Freeplay and Demos",
+            "running": true,
+            "start": "11:00 AM",
+            "time1": "Closes at",
+            "time2": "5:00 PM"
+        },
+        {
+            "finish": "10:00 PM",
+            "location": "407",
+            "name": "Cosplay Meetup",
+            "running": true,
+            "start": "12:00 PM",
+            "time1": "Closes at",
+            "time2": "10:00 PM"
+        },
+        {
+            "finish": "8:00 PM",
+            "location": "Hall B",
+            "name": "Dealer's Room/Artist Alley",
+            "running": true,
+            "start": "12:00 PM",
+            "time1": "Closes at",
+            "time2": "8:00 PM"
+        },
+        {
+            "finish": "10:00 PM",
+            "location": "421",
+            "name": "The Magic of Cosplay",
+            "running": true,
+            "start": "1:00 PM",
+            "time1": "Closes at",
+            "time2": "10:00 PM"
+        },
+        {
+            "finish": "12:00 AM",
+            "location": "404",
+            "name": "LARP Open",
+            "running": false,
+            "start": "4:00 PM",
+            "time1": "Opens at",
+            "time2": "4:00 PM"
+        },
+        {
+            "finish": "1:00 AM",
+            "location": "401",
+            "name": "Open Mic",
+            "running": false,
+            "start": "6:45 PM",
+            "time1": "Opens at",
+            "time2": "6:45 PM"
+        }
+    ],
+    "font": "Gudea-Bold.ttf"
 }

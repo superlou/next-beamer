@@ -1,0 +1,85 @@
+{
+    "duration": 15,
+    "events": [
+        {
+            "finish": "3:30 PM",
+            "location": "301",
+            "name": "Japanese Music & Fashion with Kohei",
+            "start": "2:30 PM"
+        },
+        {
+            "finish": "3:30 PM",
+            "location": "408",
+            "name": "Autographs: Josh Grelle & Max Mittelman",
+            "start": "2:30 PM"
+        },
+        {
+            "finish": "3:45 PM",
+            "location": "303",
+            "name": "Why I moved to America with Shihori Nakane",
+            "start": "2:45 PM"
+        },
+        {
+            "finish": "3:45 PM",
+            "location": "404",
+            "name": "Rules and Intro Meeting",
+            "start": "2:45 PM"
+        },
+        {
+            "finish": "4:00 PM",
+            "location": "307",
+            "name": "Under quarantine: Infectious Diseases In Anime",
+            "start": "3:00 PM"
+        },
+        {
+            "finish": "4:30 PM",
+            "location": "308",
+            "name": "Import Gaming 101",
+            "start": "3:00 PM"
+        },
+        {
+            "finish": "4:00 PM",
+            "location": "310",
+            "name": "Brand-New Idol Shenanigans: Alternative J-idol Groups",
+            "start": "3:00 PM"
+        },
+        {
+            "finish": "4:00 PM",
+            "location": "317",
+            "name": "Chibi Chibi Drawing Time!",
+            "start": "3:00 PM"
+        },
+        {
+            "finish": "5:30 PM",
+            "location": "322",
+            "name": "Magical Girl Lyrical Nanoha The Movie 1st",
+            "start": "3:00 PM"
+        },
+        {
+            "finish": "4:00 PM",
+            "location": "Hall C",
+            "name": "Soul Caliber 6 (PS4) Non-Streamed",
+            "start": "3:00 PM"
+        },
+        {
+            "finish": "6:15 PM",
+            "location": "318",
+            "name": "Friday AMV Non-Finalists",
+            "start": "3:15 PM"
+        },
+        {
+            "finish": "4:30 PM",
+            "location": "304",
+            "name": "Josei-muke and Otome Games",
+            "start": "3:30 PM"
+        },
+        {
+            "finish": "5:00 PM",
+            "location": "405/406",
+            "name": "Hall Cosplay Judging",
+            "start": "3:30 PM"
+        }
+    ],
+    "font": "Gudea-Bold.ttf",
+    "title": "COMING UP"
+}

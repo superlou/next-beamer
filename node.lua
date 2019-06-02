@@ -14,6 +14,7 @@ else
   print("Running with name not set")
 end
 
+local video = util.videoplayer("GreenHoneycombPixelsVidevo.mov", {["loop"] = true;})
 local slide_manager = SlideManager(480, 0, WIDTH - 480, 800, 'data_slides.json')
 local ticker = Ticker("data_ticker.json", 0, 800, WIDTH, 100)
 local clock = Clock(55, 0, 200, 100)
@@ -35,8 +36,9 @@ local dt = 1 / 60
 
 function node.render()
   gl.clear(0.0, 0.0, 0.0, 1)
-  background:draw(0, 0, 1600, 800, 1)
-  left_background:draw(0, 0, 480, 800)
+  -- video:draw(0, 0, WIDTH, HEIGHT, 0.2)
+  background:draw(0, 0, 1600, 800, 1.0)
+  left_background:draw(0, 0, 480, 800, 1.0)
   -- logo:draw(0, 0, 460, 366)
   slide_manager:draw()
   all_day_panel:draw(dt)

@@ -190,9 +190,9 @@ def update(now=None):
     on_now = add_metadata(on_now, 'HAPPENING NOW', 15, font)
     on_soon = add_metadata(on_soon, 'COMING UP', 15, font)
 
-    save_json(on_now, 'data_happening_now2.json', date_format="%-I:%M %p")
-    save_json(on_soon, 'data_happening_soon2.json', date_format="%-I:%M %p")
-    save_json(all_day, 'data_all_day2.json', date_format="%-I:%M %p")
+    save_json(on_now, 'data_happening_now.json', date_format="%-I:%M %p")
+    save_json(on_soon, 'data_happening_soon.json', date_format="%-I:%M %p")
+    save_json(all_day, 'data_all_day.json', date_format="%-I:%M %p")
 
 
 if __name__ == '__main__':

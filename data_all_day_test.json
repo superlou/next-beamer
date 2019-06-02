@@ -1,0 +1,145 @@
+{
+  "font": "Gudea-Bold.ttf",
+  "events": [
+    {
+      "name": "Open Gaming",
+      "location": "402",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "AnimeNEXT LARP",
+      "location": "404",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Photo Booth",
+      "location": "406",
+      "time1": "Opens at",
+      "time2": "1:00 PM",
+      "running": false
+    },
+    {
+      "name": "AnimeNEXT Charity Auction",
+      "location": "407",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Event 5",
+      "location": "402",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Event Six",
+      "location": "404",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": false
+    },
+    {
+      "name": "Event Siete",
+      "location": "406",
+      "time1": "Opens at",
+      "time2": "1:00 PM",
+      "running": false
+    },
+    {
+      "name": "No More Events",
+      "location": "407",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Please, I Can't Even",
+      "location": "402",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Tolerate Anything More",
+      "location": "404",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Need to Complete the List",
+      "location": "406",
+      "time1": "Opens at",
+      "time2": "1:00 PM",
+      "running": false
+    },
+    {
+      "name": "Event 1010",
+      "location": "407",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Event 2020",
+      "location": "402",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Sealab 2021",
+      "location": "404",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Overflow Event",
+      "location": "406",
+      "time1": "Opens at",
+      "time2": "1:00 PM",
+      "running": false
+    },
+    {
+      "name": "Stil Going Now",
+      "location": "407",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Closed Gaming",
+      "location": "402",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Exclusive Exclusivity",
+      "location": "404",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    },
+    {
+      "name": "Almost the Last One",
+      "location": "406",
+      "time1": "Opens at",
+      "time2": "1:00 PM",
+      "running": false
+    },
+    {
+      "name": "The Last Event",
+      "location": "407",
+      "time1": "Closes at",
+      "time2": "5:00 PM",
+      "running": true
+    }
+  ]
+}
