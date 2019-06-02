@@ -63,7 +63,7 @@ def pull_from_guidebook(guide_id, catalog_file):
             'name': sanitize(session['name']),
             'start': session['start_time'],
             'finish': session['end_time'],
-            'location': sanitize(location)
+            'location': shorten_location(sanitize(location))
         }
 
         sessions_list.append(data)
@@ -109,6 +109,11 @@ def load_guidebook_json(filename):
             pass
 
     return sessions
+
+
+def shorten_location(location):
+    """ Extract the ACCC room number from a string like "303 - Panel 1". """
+    return location.split('-')[0].strip()
 
 
 def session_is_all_day(s, now):
