@@ -148,6 +148,7 @@ def get_now_and_soon(sessions, now):
 
 def get_all_day(sessions, now):
     sessions = [s for s in sessions if session_is_all_day(s, now)]
+    sessions = sorted(sessions, key=lambda k: k['name'])
 
     for session in sessions:
         if session_is_running(session, now):
