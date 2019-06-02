@@ -21,6 +21,7 @@ function AllDayPanel:init(x, y, width, height, data_filename)
     self.font = resource.load_font(data.font)
     self.events = data.events
 
+    self.pages = {}
     local page_num = 1
     local page_items = {}
 
@@ -48,7 +49,7 @@ end
 function AllDayPanel:draw(dt)
   self.t = self.t + dt
 
-  if self.t > 5 then
+  if self.t > 8 then
     self.t = 0
     self.active_page = self.active_page + 1
 

@@ -153,12 +153,15 @@ def get_all_day(sessions, now):
         if session_is_running(session, now):
             session['time1'] = 'Closes at'
             session['time2'] = session['finish'].astimezone(tz).strftime('%-I:%M %p')
+            session['running'] = True
         elif not session_started(session, now):
             session['time1'] = 'Opens at'
             session['time2'] = session['start'].astimezone(tz).strftime('%-I:%M %p')
+            session['running'] = False
         elif session_finished(session, now):
             session['time1'] = 'Closed'
-            session['time2'] = ''
+            session['time2'] = 'for today'
+            session['running'] = False
 
     return {
         'font': 'Gudea-Bold.ttf',
