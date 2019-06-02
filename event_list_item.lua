@@ -16,7 +16,7 @@ function EventListItem:init(width, height, name, start, location, font)
   self.font = font
   self.period = ''
   self.pad = 20
-  self.location_width = 200
+  self.location_width = 120
   self:set_period()
 end
 

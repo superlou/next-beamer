@@ -11,7 +11,7 @@ local EventListItem = require 'event_list_item'
 function EventListSlide:init(x, y, width, height, data_filename)
   self.super:init()
   self.x, self.y = x, y
-  self.items_start = self.y + 135
+  self.items_start = self.y + 115
   self.width, self.height = width, height
   self.padding = 30
   self.items = {}
@@ -65,9 +65,7 @@ end
 function EventListSlide:draw()
   self.super:tick()
   local x = self.x + self.padding
-  local y = self.y + self.padding + 20
-  -- write_centered_font(self.title, 50, x, y + 3, 0, 0, 0, 0.5, self.font)
-  -- write_centered_font(self.title, 50, x, y, 1, 1, 1, 1, self.font)
+  local y = self.y + self.padding
   self.font:write(x, y + 3, self.title, 64, 0, 0, 0, 0.5)
   self.font:write(x, y, self.title, 64, 1, 1, 1, 1)
 

@@ -10,7 +10,7 @@ function Ticker:init(data_filename, x, y, width, height)
   self.x, self.y = x, y
   self.width, self.height = width, height
   self.active = false
-  self.background = resource.create_colored_texture(0, 0, 0, 0.4)
+  self.background = resource.create_colored_texture(0, 0, 0, 0.8)
   self.ticker_msgs = {}
   self.next_msg_id = 1
 
