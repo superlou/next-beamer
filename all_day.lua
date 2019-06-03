@@ -48,9 +48,7 @@ function AllDayPanel:init(x, y, width, height, data_filename)
   self.alpha = 1
 end
 
-function AllDayPanel:draw(dt)
-  self.t = self.t + dt
-
+function AllDayPanel:transition_pages()
   if self.t <= 0.5 then
     self.alpha = 2 * self.t
   end
@@ -66,6 +64,16 @@ function AllDayPanel:draw(dt)
     if self.active_page > #self.pages then
       self.active_page = 1
     end
+  end
+end
+
+function AllDayPanel:draw(dt)
+  self.t = self.t + dt
+
+  if #self.pages == 0 then
+    return
+  elseif #self.pages > 1 then
+    self:transition_pages()
   end
 
   for index, item in ipairs(self.pages[self.active_page]) do
