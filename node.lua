@@ -22,7 +22,7 @@ local logo = resource.load_image("animenext_logo_transparent_800px_white2.png")
 local all_day_panel = AllDayPanel(0, 116, 480, 700, 'data_all_day.json')
 
 local background = create_color_resource_hex("#5c987b")
-local background_image = resource.load_image('background.png')
+local background_image = resource.load_image('background-tint-lighter.png')
 local left_background = create_color_resource_hex("#198b80")
 local divider = create_color_resource_hex("#364a2b")
 
