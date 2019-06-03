@@ -19,12 +19,16 @@ function ImageSlide:init(x, y, width, height, data_filename, font)
     if data.padding then
       self.padding = data.padding
     end
+
+    self.x1 = self.x + self.width * self.padding
+    self.y1 = self.y + self.height * self.padding
+    self.x2 = self.x + self.width * (1 - self.padding)
+    self.y2 = self.y + self.height * (1 - self.padding)
   end)
 end
 
 function ImageSlide:draw()
   self.super:tick()
-  local padding = self.padding
   local fade_duration = 0.2
   local time = self.super.active_time
 
@@ -36,10 +40,7 @@ function ImageSlide:draw()
     alpha = 1.0
   end
 
-
-  self.image:draw(self.width * padding, self.height * padding,
-                  self.width * (1 - padding), self.height * (1 - padding),
-                  alpha)
+  self.image:draw(self.x1, self.y1, self.x2, self.y2, alpha)
 end
 
 function ImageSlide:reset()
