@@ -61,8 +61,8 @@ function AllDayItem:draw(x, y, alpha)
 
   name_bg:draw(x_pos, y, x_pos + self.name_width, y + h, alpha)
   draw_text_in_window(self.name,
-                      x_pos, y + 5, self.name_width, h,
-                      h - 10, self.font, 1, 1, 1, text_alpha, 10)
+                      x_pos, y + 10, self.name_width, h,
+                      h - 20, self.font, 1, 1, 1, text_alpha, 10)
 
   x_pos = x_pos + self.name_width
   separator:draw(x_pos, y, x_pos + self.separator_width, y + h, alpha)

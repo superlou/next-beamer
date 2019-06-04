@@ -16,7 +16,7 @@ end
 
 local slide_manager = SlideManager(480, 0, WIDTH - 480, 800, 'data_slides.json')
 local ticker = Ticker("data_ticker.json", 0, 800, WIDTH, 100)
-local clock = Clock(1320, 15, 200, 100)
+local clock = Clock(1570, 12, 200, 100, 'right')
 clock.text = "88:88 ZM"
 local logo = resource.load_image("animenext_logo_transparent_800px_white2.png")
 local all_day_panel = AllDayPanel(0, 116, 480, 700, 'data_all_day.json')

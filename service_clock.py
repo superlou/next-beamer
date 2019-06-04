@@ -7,7 +7,7 @@ from time import sleep
 def service():
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     while 1:
-        text = datetime.datetime.now().strftime('%-I:%M')
+        text = datetime.datetime.now().strftime('%-I:%M %p')
         folder = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
         msg = '{}/clock/set:{}'.format(folder, text)
         sock.sendto(msg.encode(), ('127.0.0.1', 4444))
