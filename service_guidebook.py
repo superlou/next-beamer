@@ -8,7 +8,7 @@ import traceback
 from tzlocal import get_localzone
 from time import sleep, time
 from guidebook import api_requestor
-
+from dotenv_light import load_dotenv
 
 tz = get_localzone()
 
@@ -197,6 +197,7 @@ def update(now=None):
 
 
 if __name__ == '__main__':
+    load_dotenv()
     now = None
 
     if len(sys.argv) > 1:

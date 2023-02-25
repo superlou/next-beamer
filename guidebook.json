@@ -6,6 +6,12 @@
         "start": "2023-03-24T00:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-24T04:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Opening Tabletop Gaming",
+        "start": "2023-03-24T00:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-24T01:15:00.000000+0000",
         "location": "Live 2",
         "name": "Dungeon Masters Unlocked",
@@ -54,15 +60,9 @@
         "start": "2023-03-24T03:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-24T17:00:00.000000+0000",
-        "location": "Live 5",
-        "name": "Hand Embroidery 101/ Banner make 'n' take",
-        "start": "2023-03-24T15:00:00.000000+0000"
-    },
-    {
-        "finish": "2023-03-24T16:00:00.000000+0000",
-        "location": "Live 1",
-        "name": "Localizing Video Games: My Descent Into Madness",
+        "finish": "2023-03-25T04:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Battle Frontier",
         "start": "2023-03-24T15:00:00.000000+0000"
     },
     {
@@ -72,16 +72,34 @@
         "start": "2023-03-24T15:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T04:15:00.000000+0000",
-        "location": "LIve 2",
-        "name": "Faire Thee Well: A Newbie's Guide to the Renaissance Faire",
-        "start": "2023-03-24T15:15:00.000000+0000"
+        "finish": "2023-03-24T16:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Localizing Video Games: My Descent Into Madness",
+        "start": "2023-03-24T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T17:00:00.000000+0000",
+        "location": "Live 5",
+        "name": "Hand Embroidery 101/ Banner make 'n' take",
+        "start": "2023-03-24T15:00:00.000000+0000"
     },
     {
         "finish": "2023-03-24T16:15:00.000000+0000",
         "location": "Live 4",
         "name": "Wales, the Renaissance, and the Language That Wants to Buy a Vowel Please",
         "start": "2023-03-24T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T04:15:00.000000+0000",
+        "location": "LIve 2",
+        "name": "Faire Thee Well: A Newbie's Guide to the Renaissance Faire",
+        "start": "2023-03-24T15:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T22:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Magic: Pre-release",
+        "start": "2023-03-24T16:00:00.000000+0000"
     },
     {
         "finish": "2023-03-24T18:15:00.000000+0000",
@@ -97,14 +115,14 @@
     },
     {
         "finish": "2023-03-24T17:45:00.000000+0000",
-        "location": "Live 2",
-        "name": "Characters and Comics 101: With PCA&D",
+        "location": "Live 4",
+        "name": "Krakoa Vacation Guide (You should be reading X-books)",
         "start": "2023-03-24T16:45:00.000000+0000"
     },
     {
         "finish": "2023-03-24T17:45:00.000000+0000",
-        "location": "Live 4",
-        "name": "Krakoa Vacation Guide (You should be reading X-books)",
+        "location": "Live 2",
+        "name": "Characters and Comics 101: With PCA&D",
         "start": "2023-03-24T16:45:00.000000+0000"
     },
     {
@@ -132,6 +150,12 @@
         "start": "2023-03-24T19:45:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T00:30:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Golden Sky Stories: Heart Warming Role Playing",
+        "start": "2023-03-24T20:30:00.000000+0000"
+    },
+    {
         "finish": "2023-03-24T22:15:00.000000+0000",
         "location": "Live 2",
         "name": "The Red Rose City: Lancaster History",
@@ -139,14 +163,14 @@
     },
     {
         "finish": "2023-03-24T22:00:00.000000+0000",
-        "location": "Live 4",
-        "name": "Mommy and Me; How to Navigate Having a Little One and Attending a Con at the Same Time",
+        "location": "Live 1",
+        "name": "Genshin Impact Jeopardy",
         "start": "2023-03-24T21:00:00.000000+0000"
     },
     {
         "finish": "2023-03-24T22:00:00.000000+0000",
-        "location": "Live 1",
-        "name": "Genshin Impact Jeopardy",
+        "location": "Live 4",
+        "name": "Mommy and Me; How to Navigate Having a Little One and Attending a Con at the Same Time",
         "start": "2023-03-24T21:00:00.000000+0000"
     },
     {
@@ -162,6 +186,12 @@
         "start": "2023-03-24T21:15:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T04:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Pokemon CCG: Crown Zenith Release",
+        "start": "2023-03-24T22:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-24T23:30:00.000000+0000",
         "location": "Live 3",
         "name": "Failed Americanized Anime",
@@ -172,6 +202,12 @@
         "location": "Live 4",
         "name": "Anime, Your History",
         "start": "2023-03-24T22:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T02:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Betrayal at House on the Hill",
+        "start": "2023-03-24T23:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T00:45:00.000000+0000",
@@ -186,9 +222,15 @@
         "start": "2023-03-25T00:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T02:00:00.000000+0000",
-        "location": "Live 1",
-        "name": "Classifying the Modern-Day Himbo",
+        "finish": "2023-03-25T02:30:00.000000+0000",
+        "location": "Live 2",
+        "name": "Otto-chan's IdolFest",
+        "start": "2023-03-25T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T05:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Alien the RPG: Hope's Last Day (Content Advisory)",
         "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
@@ -198,9 +240,9 @@
         "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T02:30:00.000000+0000",
-        "location": "Live 2",
-        "name": "Otto-chan's IdolFest",
+        "finish": "2023-03-25T02:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Classifying the Modern-Day Himbo",
         "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
@@ -258,6 +300,66 @@
         "start": "2023-03-25T05:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-26T04:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Battle Frontier",
+        "start": "2023-03-25T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T22:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Josh Maffet Yu-Gi-Oh Tournament",
+        "start": "2023-03-25T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Red Dragon Inn",
+        "start": "2023-03-25T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Cowboy Bebop",
+        "start": "2023-03-25T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T00:30:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Magical Fury: Race to Protect the City",
+        "start": "2023-03-25T20:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T00:30:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Golden Sky Stories: Heart Warming RP",
+        "start": "2023-03-25T20:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T04:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Magic: Pre-release",
+        "start": "2023-03-25T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T02:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Dark Tower",
+        "start": "2023-03-25T23:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T05:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Maid RPG (Content Advisory)",
+        "start": "2023-03-26T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T05:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Alien the RPG: Hope's Last Day (Content Advisory)",
+        "start": "2023-03-26T01:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T14:45:00.000000+0000",
         "location": "Live 4",
         "name": "Renn Faire Re-wear",
@@ -288,6 +390,12 @@
         "start": "2023-03-26T14:30:00.000000+0000"
     },
     {
+        "finish": "2023-03-26T19:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Academy Ace Tournament Finals (Video Gaming)",
+        "start": "2023-03-26T15:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T17:30:00.000000+0000",
         "location": "Swap Meet",
         "name": "Swap meet",
@@ -297,6 +405,12 @@
         "finish": "2023-03-26T18:00:00.000000+0000",
         "location": "Live 5",
         "name": "Pika-Do-It-Yourself - Make a Set of Pikachu Ears",
+        "start": "2023-03-26T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T20:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "On-Demand: Pokemon RPG or Sentinels Comic RPG (Optional)",
         "start": "2023-03-26T16:00:00.000000+0000"
     },
     {
