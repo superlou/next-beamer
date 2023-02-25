@@ -201,7 +201,7 @@ if __name__ == '__main__':
 
     if len(sys.argv) > 1:
         if sys.argv[1] in ['--pull', '-p']:
-            pull_from_guidebook('159116', 'guidebook.json')
+            pull_from_guidebook('195964', 'guidebook.json')
             sys.exit()
         else:
             now = dateutil.parser.parse(sys.argv[1])
@@ -209,7 +209,7 @@ if __name__ == '__main__':
     font = 'Gudea-Bold.ttf'
 
     # Only use for testing
-    #now = dateutil.parser.parse("2018-06-08T12:46:00.000000-0400")
+    #now = dateutil.parser.parse("2023-03-25T12:00:00.000000-0400")
 
     while 1:
         try:

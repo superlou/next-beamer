@@ -22,13 +22,13 @@
       "id": "photo",
       "type": "image_slide",
       "data": "data_expo_east_1.json",
-      "enable": ["bestever", "raspberrypi"]
+      "enable": false
     },
     {
       "id": "photo",
       "type": "image_slide",
       "data": "data_expo_east_2.json",
-      "enable": ["bestever", "raspberrypi"]
+      "enable": false
     }
   ]
 }
