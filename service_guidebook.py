@@ -146,18 +146,18 @@ def get_now_and_soon(sessions, now):
     return happening_now, soon
 
 
-def get_all_day(sessions, now):
+def get_all_day(sessions, now, date_format):
     sessions = [s for s in sessions if session_is_all_day(s, now)]
     sessions = sorted(sessions, key=lambda k: k['name'])
 
     for session in sessions:
         if session_is_running(session, now):
             session['time1'] = 'Closes at'
-            session['time2'] = session['finish'].astimezone(tz).strftime('%-I:%M %p')
+            session['time2'] = session['finish'].astimezone(tz).strftime(date_format)
             session['running'] = True
         elif not session_started(session, now):
             session['time1'] = 'Opens at'
-            session['time2'] = session['start'].astimezone(tz).strftime('%-I:%M %p')
+            session['time2'] = session['start'].astimezone(tz).strftime(date_format)
             session['running'] = False
         elif session_finished(session, now):
             session['time1'] = 'Closed'
@@ -179,23 +179,28 @@ def add_metadata(events, title, duration, font):
     }
 
 
-def update(now, font):
+def update(now, font, date_format):
     sessions = load_guidebook_json('guidebook.json')
     sessions = sorted(sessions, key=lambda k: (k['start'], k['location']))
     on_now, on_soon = get_now_and_soon(sessions, now)
-    all_day = get_all_day(sessions, now)
+    all_day = get_all_day(sessions, now, date_format)
 
     on_now = add_metadata(on_now, 'HAPPENING NOW', 15, font)
     on_soon = add_metadata(on_soon, 'COMING UP', 15, font)
 
-    save_json(on_now, 'data_happening_now.json', date_format="%-I:%M %p")
-    save_json(on_soon, 'data_happening_soon.json', date_format="%-I:%M %p")
-    save_json(all_day, 'data_all_day.json', date_format="%-I:%M %p")
+    save_json(on_now, 'data_happening_now.json', date_format)
+    save_json(on_soon, 'data_happening_soon.json', date_format)
+    save_json(all_day, 'data_all_day.json', date_format)
 
 
 if __name__ == '__main__':
     load_dotenv()
-    now = None
+
+    if os.name == "nt":
+        # Format codes for Windows are different
+        DATE_FORMAT = "%#I:%M %p"
+    else:
+        DATE_FORMAT = "%-I:%M %p"
 
     if len(sys.argv) > 1:
         if sys.argv[1] in ['--pull', '-p']:
@@ -210,7 +215,7 @@ if __name__ == '__main__':
             now = datetime.datetime.now(datetime.timezone.utc)
 
         try:
-            update(now, 'Gudea-Bold.ttf')
+            update(now, 'Gudea-Bold.ttf', DATE_FORMAT)
         except Exception as e:
             print(traceback.format_exc())
 

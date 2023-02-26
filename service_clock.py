@@ -17,8 +17,6 @@ def service():
             print(e)
             now = datetime.datetime.now()
 
-        print(now)
-
         text = now.strftime('%-I:%M %p')
         folder = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
         msg = '{}/clock/set:{}'.format(folder, text)
