@@ -179,10 +179,7 @@ def add_metadata(events, title, duration, font):
     }
 
 
-def update(now=None):
-    if now is None:
-        now = datetime.datetime.now(datetime.timezone.utc)
-
+def update(now, font):
     sessions = load_guidebook_json('guidebook.json')
     sessions = sorted(sessions, key=lambda k: (k['start'], k['location']))
     on_now, on_soon = get_now_and_soon(sessions, now)
@@ -204,17 +201,16 @@ if __name__ == '__main__':
         if sys.argv[1] in ['--pull', '-p']:
             pull_from_guidebook('195964', 'guidebook.json')
             sys.exit()
-        else:
-            now = dateutil.parser.parse(sys.argv[1])
-
-    font = 'Gudea-Bold.ttf'
-
-    # Only use for testing
-    #now = dateutil.parser.parse("2023-03-25T12:00:00.000000-0400")
 
     while 1:
         try:
-            update(now)
+            now_str = json.load(open("data_services.json"))["config"]["now"]
+            now = dateutil.parser.parse(now_str)
+        except Exception as e:
+            now = datetime.datetime.now(datetime.timezone.utc)
+
+        try:
+            update(now, 'Gudea-Bold.ttf')
         except Exception as e:
             print(traceback.format_exc())
 

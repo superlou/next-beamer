@@ -76,6 +76,11 @@ function AllDayPanel:draw(dt)
     self:transition_pages()
   end
 
+  if (self.pages[self.active_page] == nil) then
+    -- Protect against data updating while drawing
+    return
+  end
+
   for index, item in ipairs(self.pages[self.active_page]) do
     local i = index - 1
 

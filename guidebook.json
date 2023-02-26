@@ -1,14 +1,14 @@
 [
     {
-        "finish": "2023-03-24T01:00:00.000000+0000",
-        "location": "Live 1",
-        "name": "Cons and Disabilities",
-        "start": "2023-03-24T00:00:00.000000+0000"
-    },
-    {
         "finish": "2023-03-24T04:00:00.000000+0000",
         "location": "Tabletop Gaming",
         "name": "Opening Tabletop Gaming",
+        "start": "2023-03-24T00:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T01:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Cons and Disabilities",
         "start": "2023-03-24T00:00:00.000000+0000"
     },
     {
@@ -60,15 +60,33 @@
         "start": "2023-03-24T03:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T04:00:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Battle Frontier",
-        "start": "2023-03-24T15:00:00.000000+0000"
+        "finish": "2023-03-24T14:30:00.000000+0000",
+        "location": "Cosplay Meetup Lobby Stairs",
+        "name": "VTubers",
+        "start": "2023-03-24T13:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T14:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Star Wars",
+        "start": "2023-03-24T13:00:00.000000+0000"
     },
     {
         "finish": "2023-03-24T16:00:00.000000+0000",
         "location": "Live 3",
         "name": "Foods in Anime and Pop Culture and Where to Find Them",
+        "start": "2023-03-24T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T16:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "NJ Anime Cosplay Fans",
+        "start": "2023-03-24T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T04:00:00.000000+0000",
+        "location": "Tabletop Gaming",
+        "name": "Battle Frontier",
         "start": "2023-03-24T15:00:00.000000+0000"
     },
     {
@@ -91,7 +109,7 @@
     },
     {
         "finish": "2023-03-25T04:15:00.000000+0000",
-        "location": "LIve 2",
+        "location": "Live 2",
         "name": "Faire Thee Well: A Newbie's Guide to the Renaissance Faire",
         "start": "2023-03-24T15:15:00.000000+0000"
     },
@@ -99,6 +117,12 @@
         "finish": "2023-03-24T22:00:00.000000+0000",
         "location": "Tabletop Gaming",
         "name": "Magic: Pre-release",
+        "start": "2023-03-24T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T17:30:00.000000+0000",
+        "location": "Cosplay Meetup Lobby Stairs",
+        "name": "Bleach",
         "start": "2023-03-24T16:00:00.000000+0000"
     },
     {
@@ -115,15 +139,27 @@
     },
     {
         "finish": "2023-03-24T17:45:00.000000+0000",
+        "location": "Live 2",
+        "name": "Characters and Comics 101: With PCA&D",
+        "start": "2023-03-24T16:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T17:45:00.000000+0000",
         "location": "Live 4",
         "name": "Krakoa Vacation Guide (You should be reading X-books)",
         "start": "2023-03-24T16:45:00.000000+0000"
     },
     {
-        "finish": "2023-03-24T17:45:00.000000+0000",
-        "location": "Live 2",
-        "name": "Characters and Comics 101: With PCA&D",
-        "start": "2023-03-24T16:45:00.000000+0000"
+        "finish": "2023-03-24T18:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Tokyo Revengers",
+        "start": "2023-03-24T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T18:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "LGBTQ+ couples & ships",
+        "start": "2023-03-24T17:00:00.000000+0000"
     },
     {
         "finish": "2023-03-24T19:00:00.000000+0000",
@@ -144,10 +180,28 @@
         "start": "2023-03-24T18:15:00.000000+0000"
     },
     {
+        "finish": "2023-03-24T20:00:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Vocaloid/Poject Sekai",
+        "start": "2023-03-24T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T21:00:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Genshin Impact",
+        "start": "2023-03-24T19:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-24T20:45:00.000000+0000",
         "location": "Live 4",
         "name": "Cosplay at the Renaissance Festival",
         "start": "2023-03-24T19:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T21:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Disney Twisted Wonderland",
+        "start": "2023-03-24T20:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T00:30:00.000000+0000",
@@ -163,26 +217,26 @@
     },
     {
         "finish": "2023-03-24T22:00:00.000000+0000",
-        "location": "Live 1",
-        "name": "Genshin Impact Jeopardy",
-        "start": "2023-03-24T21:00:00.000000+0000"
-    },
-    {
-        "finish": "2023-03-24T22:00:00.000000+0000",
         "location": "Live 4",
         "name": "Mommy and Me; How to Navigate Having a Little One and Attending a Con at the Same Time",
         "start": "2023-03-24T21:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-24T22:15:00.000000+0000",
-        "location": "Live 3",
-        "name": "Vtubers: Down The Virtual Rabbit Hole",
-        "start": "2023-03-24T21:15:00.000000+0000"
+        "finish": "2023-03-24T22:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Genshin Impact Jeopardy",
+        "start": "2023-03-24T21:00:00.000000+0000"
     },
     {
         "finish": "2023-03-24T23:15:00.000000+0000",
         "location": "Live 5",
         "name": "Make a Plushie Workshop: RenFaire Edition",
+        "start": "2023-03-24T21:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T22:15:00.000000+0000",
+        "location": "Live 3",
+        "name": "Vtubers: Down The Virtual Rabbit Hole",
         "start": "2023-03-24T21:15:00.000000+0000"
     },
     {
@@ -223,7 +277,7 @@
     },
     {
         "finish": "2023-03-25T02:30:00.000000+0000",
-        "location": "Live 2",
+        "location": "Live 3",
         "name": "Otto-chan's IdolFest",
         "start": "2023-03-25T01:00:00.000000+0000"
     },
@@ -234,15 +288,15 @@
         "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T02:30:00.000000+0000",
-        "location": "Live 3",
-        "name": "Otto-chan's IdolFest",
-        "start": "2023-03-25T01:00:00.000000+0000"
-    },
-    {
         "finish": "2023-03-25T02:00:00.000000+0000",
         "location": "Live 1",
         "name": "Classifying the Modern-Day Himbo",
+        "start": "2023-03-25T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T02:30:00.000000+0000",
+        "location": "Live 2",
+        "name": "Otto-chan's IdolFest",
         "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
@@ -271,13 +325,13 @@
     },
     {
         "finish": "2023-03-25T05:00:00.000000+0000",
-        "location": "Live 3",
+        "location": "Live 2",
         "name": "AMVs Showdown I",
         "start": "2023-03-25T03:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T05:00:00.000000+0000",
-        "location": "Live 2",
+        "location": "Live 3",
         "name": "AMVs Showdown I",
         "start": "2023-03-25T03:00:00.000000+0000"
     },
@@ -300,16 +354,58 @@
         "start": "2023-03-25T05:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T14:30:00.000000+0000",
+        "location": "Cosplay Meetup Lobby Stairs",
+        "name": "Love Live",
+        "start": "2023-03-25T13:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T04:00:00.000000+0000",
         "location": "Tabletop Gaming",
         "name": "Battle Frontier",
         "start": "2023-03-25T15:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T16:30:00.000000+0000",
+        "location": "Cosplay Meetup Lobby Stairs",
+        "name": "One Piece",
+        "start": "2023-03-25T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T17:00:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Jujutsu Kaisen",
+        "start": "2023-03-25T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T17:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Idols",
+        "start": "2023-03-25T16:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-25T22:00:00.000000+0000",
         "location": "Tabletop Gaming",
         "name": "Josh Maffet Yu-Gi-Oh Tournament",
         "start": "2023-03-25T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T19:00:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Dream SMP",
+        "start": "2023-03-25T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T18:30:00.000000+0000",
+        "location": "Cosplay Meetup Stone Courtyard",
+        "name": "My Hero Acadmia",
+        "start": "2023-03-25T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T19:00:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "VTubers",
+        "start": "2023-03-25T17:30:00.000000+0000"
     },
     {
         "finish": "2023-03-25T21:00:00.000000+0000",
@@ -324,6 +420,30 @@
         "start": "2023-03-25T18:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T20:30:00.000000+0000",
+        "location": "Cosplay Meetup Stone Courtyard",
+        "name": "Blue Lock",
+        "start": "2023-03-25T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T20:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Fate/Moon Type",
+        "start": "2023-03-25T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:00:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Genshin Impact",
+        "start": "2023-03-25T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Power Rangers/ Super Sentai",
+        "start": "2023-03-25T20:30:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T00:30:00.000000+0000",
         "location": "Tabletop Gaming",
         "name": "Magical Fury: Race to Protect the City",
@@ -336,10 +456,22 @@
         "start": "2023-03-25T20:30:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T22:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Critical Role",
+        "start": "2023-03-25T21:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T04:00:00.000000+0000",
         "location": "Tabletop Gaming",
         "name": "Magic: Pre-release",
         "start": "2023-03-25T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T00:00:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Horror",
+        "start": "2023-03-25T22:30:00.000000+0000"
     },
     {
         "finish": "2023-03-26T02:00:00.000000+0000",
@@ -396,9 +528,9 @@
         "start": "2023-03-26T15:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-26T17:30:00.000000+0000",
-        "location": "Swap Meet",
-        "name": "Swap meet",
+        "finish": "2023-03-26T17:00:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Chainsaw Man",
         "start": "2023-03-26T15:30:00.000000+0000"
     },
     {
@@ -412,6 +544,36 @@
         "location": "Tabletop Gaming",
         "name": "On-Demand: Pokemon RPG or Sentinels Comic RPG (Optional)",
         "start": "2023-03-26T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T17:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Haikyuu",
+        "start": "2023-03-26T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T18:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "All Things Idol",
+        "start": "2023-03-26T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T19:00:00.000000+0000",
+        "location": "Cosplay Meetup Stone Courtyard",
+        "name": "Twisted Wonderland",
+        "start": "2023-03-26T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T18:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Nijisanji",
+        "start": "2023-03-26T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T19:15:00.000000+0000",
+        "location": "Swap Meet",
+        "name": "Swap Meet",
+        "start": "2023-03-26T17:45:00.000000+0000"
     },
     {
         "finish": "2023-03-26T19:00:00.000000+0000",
