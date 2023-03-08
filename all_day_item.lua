@@ -5,7 +5,7 @@ local class = require '30log'
 local AllDayItem = class('AllDayItem')
 
 local background = create_color_resource_hex("#396048")
-local shadow = create_color_resource_hex("#005952")
+local shadow = create_color_resource_hex("#1b204f")
 local time_bg_running = create_color_resource_hex("#ce7777")
 local time_bg_not_running = create_color_resource_hex("#957774")
 local name_bg_running = create_color_resource_hex("#398e6c")

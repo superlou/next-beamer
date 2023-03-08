@@ -2,9 +2,10 @@ require 'text_util'
 require 'color_util'
 local class = require '30log'
 
-local background = create_color_resource_hex("#457a73")
-local shadow = create_color_resource_hex("#005952")
-local time_background = create_color_resource_hex("#2b635e")
+local background = create_color_resource_hex("#3a4bb3")
+local shadow = create_color_resource_hex("#1b204f")
+local time_background = create_color_resource_hex("#2e1a7b")
+local location_color = "#e2c4eb"
 
 local EventListItem = class("EventListItem")
 
@@ -53,7 +54,7 @@ function EventListItem:draw(x, y, alpha)
 
   self.location_size, self.location_y = size_text_to_width(self.location, self.font, self.location_width, 50)
   local location_x = x + self.width - self.pad - self.location_width
-  local r, g, b = hex2rgb("#fff7b3")
+  local r, g, b = hex2rgb(location_color)
   self.font:write(location_x, y + 10 + self.location_y, self.location, self.location_size, r, g, b, alpha)
 
   local name_width = self.width - self.pad * 5 - start_width - period_width - self.location_width

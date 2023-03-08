@@ -18,13 +18,13 @@ local slide_manager = SlideManager(480, 0, WIDTH - 480, 800, 'data_slides.json')
 local ticker = Ticker("data_ticker.json", 0, 800, WIDTH, 100)
 local clock = Clock(1570, 12, 200, 100, 'right')
 clock.text = "88:88 ZM"
-local logo = resource.load_image("zenkaikon_logo_transparent.png")
+local logo = resource.load_image("zenkaikon_logo_transparent2.png")
 local all_day_panel = AllDayPanel(0, 116, 480, 700, 'data_all_day.json')
 
 local background = create_color_resource_hex("#5c987b")
-local background_image = resource.load_image('background-tint-lighter.png')
+local background_image = resource.load_image("zenkaikon2023_bg.jpg")
 local left_background = create_color_resource_hex("#198b80")
-local divider = create_color_resource_hex("#364a2b")
+local divider = create_color_resource_hex("#2e1a7b")
 
 local left_decal = resource.load_image('decal.png')
 
@@ -35,15 +35,18 @@ util.data_mapper{
 }
 
 local dt = 1 / 60
+local background_fade = create_color_resource_hex("#3a4bb3")
 
 function node.render()
   gl.clear(0.0, 0.0, 0.0, 1)
   background_image:draw(0, 0, 1600, 900, 1.0)
-  left_decal:draw(0, 0, 480, 800, 0.5)
+  background_fade:draw(0, 0, 1600, 900, 0.7)
+  background_fade:draw(0, 0, 480, 800, 0.5)
+  --left_decal:draw(0, 0, 480, 800, 0.5)
   logo:draw(82, 20, 82 + 320, 20 + 72)
   slide_manager:draw()
   all_day_panel:draw(dt)
-  divider:draw(480, 0, 482, 800, 1)
+  divider:draw(480, 0, 482, 800, 0.8)
   ticker:draw()
   clock:draw()
   flux.update(dt)

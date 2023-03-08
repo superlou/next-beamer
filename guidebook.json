@@ -1,7 +1,7 @@
 [
     {
         "finish": "2023-03-24T04:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Opening Tabletop Gaming",
         "start": "2023-03-24T00:00:00.000000+0000"
     },
@@ -61,15 +61,33 @@
     },
     {
         "finish": "2023-03-24T14:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Star Wars",
+        "start": "2023-03-24T13:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T14:30:00.000000+0000",
         "location": "Cosplay Meetup Lobby Stairs",
         "name": "VTubers",
         "start": "2023-03-24T13:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-24T14:30:00.000000+0000",
-        "location": "Cosplay Meetup",
-        "name": "Star Wars",
-        "start": "2023-03-24T13:00:00.000000+0000"
+        "finish": "2023-03-25T01:00:00.000000+0000",
+        "location": "Hall Cosplay/World of Cosplay/Cosplay Photobooth",
+        "name": "Cosplay Photobooth",
+        "start": "2023-03-24T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T17:00:00.000000+0000",
+        "location": "Live 5",
+        "name": "Hand Embroidery 101/ Banner make 'n' take",
+        "start": "2023-03-24T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T04:00:00.000000+0000",
+        "location": "Tabletop",
+        "name": "Battle Frontier",
+        "start": "2023-03-24T15:00:00.000000+0000"
     },
     {
         "finish": "2023-03-24T16:00:00.000000+0000",
@@ -84,21 +102,9 @@
         "start": "2023-03-24T15:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T04:00:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Battle Frontier",
-        "start": "2023-03-24T15:00:00.000000+0000"
-    },
-    {
         "finish": "2023-03-24T16:00:00.000000+0000",
         "location": "Live 1",
         "name": "Localizing Video Games: My Descent Into Madness",
-        "start": "2023-03-24T15:00:00.000000+0000"
-    },
-    {
-        "finish": "2023-03-24T17:00:00.000000+0000",
-        "location": "Live 5",
-        "name": "Hand Embroidery 101/ Banner make 'n' take",
         "start": "2023-03-24T15:00:00.000000+0000"
     },
     {
@@ -114,15 +120,15 @@
         "start": "2023-03-24T15:15:00.000000+0000"
     },
     {
-        "finish": "2023-03-24T22:00:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Magic: Pre-release",
-        "start": "2023-03-24T16:00:00.000000+0000"
-    },
-    {
         "finish": "2023-03-24T17:30:00.000000+0000",
         "location": "Cosplay Meetup Lobby Stairs",
         "name": "Bleach",
+        "start": "2023-03-24T16:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T22:00:00.000000+0000",
+        "location": "Tabletop",
+        "name": "Magic: Pre-release",
         "start": "2023-03-24T16:00:00.000000+0000"
     },
     {
@@ -139,21 +145,15 @@
     },
     {
         "finish": "2023-03-24T17:45:00.000000+0000",
-        "location": "Live 2",
-        "name": "Characters and Comics 101: With PCA&D",
-        "start": "2023-03-24T16:45:00.000000+0000"
-    },
-    {
-        "finish": "2023-03-24T17:45:00.000000+0000",
         "location": "Live 4",
         "name": "Krakoa Vacation Guide (You should be reading X-books)",
         "start": "2023-03-24T16:45:00.000000+0000"
     },
     {
-        "finish": "2023-03-24T18:30:00.000000+0000",
-        "location": "Cosplay Meetup Fountain",
-        "name": "Tokyo Revengers",
-        "start": "2023-03-24T17:00:00.000000+0000"
+        "finish": "2023-03-24T17:45:00.000000+0000",
+        "location": "Live 2",
+        "name": "Characters and Comics 101: With PCA&D",
+        "start": "2023-03-24T16:45:00.000000+0000"
     },
     {
         "finish": "2023-03-24T18:30:00.000000+0000",
@@ -162,9 +162,21 @@
         "start": "2023-03-24T17:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-24T18:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Opening Ceremonies",
+        "start": "2023-03-24T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T18:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Tokyo Revengers",
+        "start": "2023-03-24T17:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-24T19:00:00.000000+0000",
         "location": "Live 5",
-        "name": "Cosplay 301: Armor UP!",
+        "name": "ARMOR UP! : Cosplay Armor Workshop",
         "start": "2023-03-24T17:30:00.000000+0000"
     },
     {
@@ -180,9 +192,21 @@
         "start": "2023-03-24T18:15:00.000000+0000"
     },
     {
+        "finish": "2023-03-24T19:15:00.000000+0000",
+        "location": "Live 2",
+        "name": "Meet Emi Lo",
+        "start": "2023-03-24T18:15:00.000000+0000"
+    },
+    {
         "finish": "2023-03-24T20:00:00.000000+0000",
         "location": "Cosplay Meetup Fountain",
         "name": "Vocaloid/Poject Sekai",
+        "start": "2023-03-24T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T19:30:00.000000+0000",
+        "location": "Live 3",
+        "name": "Con Safety Declassified with Bubblepop Entertainment",
         "start": "2023-03-24T18:30:00.000000+0000"
     },
     {
@@ -190,6 +214,12 @@
         "location": "Cosplay Meetup Fountain",
         "name": "Genshin Impact",
         "start": "2023-03-24T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T20:30:00.000000+0000",
+        "location": "Live 1",
+        "name": "Of The Rings of Power and Tolkien's World with The Tolkien Professor",
+        "start": "2023-03-24T19:30:00.000000+0000"
     },
     {
         "finish": "2023-03-24T20:45:00.000000+0000",
@@ -205,8 +235,14 @@
     },
     {
         "finish": "2023-03-25T00:30:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Golden Sky Stories: Heart Warming Role Playing",
+        "start": "2023-03-24T20:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T21:30:00.000000+0000",
+        "location": "Main Events",
+        "name": "Gameshow Selfie Squares",
         "start": "2023-03-24T20:30:00.000000+0000"
     },
     {
@@ -240,8 +276,14 @@
         "start": "2023-03-24T21:15:00.000000+0000"
     },
     {
+        "finish": "2023-03-24T23:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Cosplay Ball Dance Lessons",
+        "start": "2023-03-24T22:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-25T04:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Pokemon CCG: Crown Zenith Release",
         "start": "2023-03-24T22:00:00.000000+0000"
     },
@@ -252,6 +294,18 @@
         "start": "2023-03-24T22:30:00.000000+0000"
     },
     {
+        "finish": "2023-03-24T23:30:00.000000+0000",
+        "location": "Live 1",
+        "name": "A Tolkien Anime?! What Should You Expect? with The Tolkien Professor",
+        "start": "2023-03-24T22:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-24T23:45:00.000000+0000",
+        "location": "Live 2",
+        "name": "Competing Internationally with Minute Made Cosplay",
+        "start": "2023-03-24T22:45:00.000000+0000"
+    },
+    {
         "finish": "2023-03-24T23:45:00.000000+0000",
         "location": "Live 4",
         "name": "Anime, Your History",
@@ -259,7 +313,7 @@
     },
     {
         "finish": "2023-03-25T02:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Betrayal at House on the Hill",
         "start": "2023-03-24T23:00:00.000000+0000"
     },
@@ -271,21 +325,21 @@
     },
     {
         "finish": "2023-03-25T01:00:00.000000+0000",
-        "location": "Live 4",
-        "name": "VIRTUAL PANEL THEATER\u2014Princess Mononoke: An Epic Masterpiece Turns 25",
+        "location": "Live 5",
+        "name": "Hot Take: The Book Was Worse with Carolina Manga Library",
         "start": "2023-03-25T00:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T02:30:00.000000+0000",
-        "location": "Live 3",
-        "name": "Otto-chan's IdolFest",
-        "start": "2023-03-25T01:00:00.000000+0000"
+        "finish": "2023-03-25T01:30:00.000000+0000",
+        "location": "Main Events",
+        "name": "Cosplay Ball",
+        "start": "2023-03-25T00:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T05:00:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Alien the RPG: Hope's Last Day (Content Advisory)",
-        "start": "2023-03-25T01:00:00.000000+0000"
+        "finish": "2023-03-25T01:00:00.000000+0000",
+        "location": "Live 4",
+        "name": "VIRTUAL PANEL THEATER\u2014Princess Mononoke: An Epic Masterpiece Turns 25",
+        "start": "2023-03-25T00:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T02:00:00.000000+0000",
@@ -294,16 +348,22 @@
         "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T05:00:00.000000+0000",
+        "location": "Tabletop",
+        "name": "Alien the RPG: Hope's Last Day (Content Advisory)",
+        "start": "2023-03-25T01:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-25T02:30:00.000000+0000",
-        "location": "Live 2",
+        "location": "Live 3",
         "name": "Otto-chan's IdolFest",
         "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T02:15:00.000000+0000",
-        "location": "Live 5",
-        "name": "The Influence and History of Fanfiction",
-        "start": "2023-03-25T01:15:00.000000+0000"
+        "finish": "2023-03-25T02:30:00.000000+0000",
+        "location": "Live 2",
+        "name": "Otto-chan's IdolFest",
+        "start": "2023-03-25T01:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T02:15:00.000000+0000",
@@ -312,16 +372,22 @@
         "start": "2023-03-25T01:15:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T02:15:00.000000+0000",
+        "location": "Live 5",
+        "name": "The Influence and History of Fanfiction",
+        "start": "2023-03-25T01:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T03:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Guests Against Humanity",
+        "start": "2023-03-25T02:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-25T03:15:00.000000+0000",
         "location": "Live 1",
         "name": "The 18+ Side of Japan: A Q&A",
         "start": "2023-03-25T02:15:00.000000+0000"
-    },
-    {
-        "finish": "2023-03-25T03:30:00.000000+0000",
-        "location": "Live 5",
-        "name": "Becoming \"Dr. Yaoi\": Academic Explorations of BL/Yaoi Fandom",
-        "start": "2023-03-25T02:30:00.000000+0000"
     },
     {
         "finish": "2023-03-25T05:00:00.000000+0000",
@@ -336,10 +402,22 @@
         "start": "2023-03-25T03:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T16:45:00.000000+0000",
+        "finish": "2023-03-25T06:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Friday Night Dance with DJ Re;Soul",
+        "start": "2023-03-25T03:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T04:45:00.000000+0000",
         "location": "Live 4",
         "name": "Where to Shop and Where not to Shop",
         "start": "2023-03-25T03:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T06:00:00.000000+0000",
+        "location": "Live 5",
+        "name": "Eye of Argon with Kieth DeCandido Bob Zygala, Brain Harkless",
+        "start": "2023-03-25T04:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T05:00:00.000000+0000",
@@ -349,9 +427,33 @@
     },
     {
         "finish": "2023-03-25T06:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Saturday Night Dance with DJ Re;Soul",
+        "start": "2023-03-25T04:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T05:45:00.000000+0000",
+        "location": "Live 1",
+        "name": "You're Wrong & You Should Feel Bad with The Manly Battleships",
+        "start": "2023-03-25T04:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T06:00:00.000000+0000",
         "location": "Live 4",
         "name": "This Panel Is (About) Crap: Japanese Innovations In Plumbing",
         "start": "2023-03-25T05:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T10:30:00.000000+0000",
+        "location": "Live 4",
+        "name": "Academic Explorations of BL Fandom and Fanfiction",
+        "start": "2023-03-25T09:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T15:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Masquerade Rehersal and Check In",
+        "start": "2023-03-25T13:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T14:30:00.000000+0000",
@@ -360,8 +462,56 @@
         "start": "2023-03-25T13:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T14:45:00.000000+0000",
+        "location": "Live 3",
+        "name": "\"Cross-Play and Gender Bending!\"",
+        "start": "2023-03-25T13:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T15:30:00.000000+0000",
+        "location": "Live 5",
+        "name": "Hand Sewing 101 / Drawstring bag make 'n' take",
+        "start": "2023-03-25T13:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T01:00:00.000000+0000",
+        "location": "Hall Cosplay/World of Cosplay/Cosplay Photobooth",
+        "name": "Cosplay Photobooth",
+        "start": "2023-03-25T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T15:30:00.000000+0000",
+        "location": "Live 2",
+        "name": "The Day The Kids Sat Still: The History and Ongoing Legacy of Saturday Morning Cartoons",
+        "start": "2023-03-25T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T15:15:00.000000+0000",
+        "location": "Live 4",
+        "name": "VIRTUAL PANEL THEATER: Satoshi Kon: Master of the Mind's Eye",
+        "start": "2023-03-25T14:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T03:15:00.000000+0000",
+        "location": "Live 4",
+        "name": "Gyaru Culture: The Gal-ification of Japanese Feminism!",
+        "start": "2023-03-25T14:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T15:30:00.000000+0000",
+        "location": "Main Events",
+        "name": "Room Clear",
+        "start": "2023-03-25T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T16:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Cosplay Q&A with Minute Made",
+        "start": "2023-03-25T15:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T04:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Battle Frontier",
         "start": "2023-03-25T15:00:00.000000+0000"
     },
@@ -372,10 +522,34 @@
         "start": "2023-03-25T15:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T16:00:00.000000+0000",
+        "location": "Live 3",
+        "name": "Medieval to Modern: Technological Advancements in Isekais",
+        "start": "2023-03-25T15:00:00.000000+0000"
+    },
+    {
         "finish": "2023-03-25T17:00:00.000000+0000",
         "location": "Cosplay Meetup",
         "name": "Jujutsu Kaisen",
         "start": "2023-03-25T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T17:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Voice Actors Panel",
+        "start": "2023-03-25T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T16:45:00.000000+0000",
+        "location": "Live 4",
+        "name": "Taboo Tattoos: Japan's Inked History",
+        "start": "2023-03-25T15:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T17:00:00.000000+0000",
+        "location": "Live 2",
+        "name": "Mental Health & Bullying at Cons",
+        "start": "2023-03-25T16:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T17:30:00.000000+0000",
@@ -385,15 +559,27 @@
     },
     {
         "finish": "2023-03-25T22:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Josh Maffet Yu-Gi-Oh Tournament",
         "start": "2023-03-25T16:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T19:00:00.000000+0000",
-        "location": "Cosplay Meetup",
-        "name": "Dream SMP",
-        "start": "2023-03-25T17:00:00.000000+0000"
+        "finish": "2023-03-25T17:15:00.000000+0000",
+        "location": "Live 3",
+        "name": "\"Is Retro Really Back? Or are we out of Ideas?\"",
+        "start": "2023-03-25T16:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T18:15:00.000000+0000",
+        "location": "Live 5",
+        "name": "Make a Plushie Workshop: RenFaire Edition",
+        "start": "2023-03-25T16:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T17:30:00.000000+0000",
+        "location": "Live 1",
+        "name": "Anime Guess Who?",
+        "start": "2023-03-25T16:30:00.000000+0000"
     },
     {
         "finish": "2023-03-25T18:30:00.000000+0000",
@@ -402,22 +588,76 @@
         "start": "2023-03-25T17:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T17:30:00.000000+0000",
+        "location": "Main Events",
+        "name": "Room Clear",
+        "start": "2023-03-25T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T19:00:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Dream SMP",
+        "start": "2023-03-25T17:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T18:15:00.000000+0000",
+        "location": "Live 4",
+        "name": "Great Graphic Novel You Should be Reading2023 with Carolina Manga Library",
+        "start": "2023-03-25T17:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T18:15:00.000000+0000",
+        "location": "Live 2",
+        "name": "A Reading with Keith DeCandido",
+        "start": "2023-03-25T17:15:00.000000+0000"
+    },
+    {
         "finish": "2023-03-25T19:00:00.000000+0000",
         "location": "Cosplay Meetup Fountain",
         "name": "VTubers",
         "start": "2023-03-25T17:30:00.000000+0000"
     },
     {
-        "finish": "2023-03-25T21:00:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Red Dragon Inn",
+        "finish": "2023-03-25T19:00:00.000000+0000",
+        "location": "Live 3",
+        "name": "Kay's Cosplay Makeup : Beginner-intermediate",
+        "start": "2023-03-25T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T20:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Bubblepop RPG Dragrace",
+        "start": "2023-03-25T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T19:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Directing Anime with Emi Lo",
         "start": "2023-03-25T18:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T21:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Cowboy Bebop",
         "start": "2023-03-25T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:00:00.000000+0000",
+        "location": "Tabletop",
+        "name": "Red Dragon Inn",
+        "start": "2023-03-25T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T19:45:00.000000+0000",
+        "location": "Live 4",
+        "name": "Pepakura: The Art of Papercraft",
+        "start": "2023-03-25T18:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T19:45:00.000000+0000",
+        "location": "Live 2",
+        "name": "Why I Love Reading J.R.R. Tolkien, An Annotated Reading with The Tolkien Professor",
+        "start": "2023-03-25T18:45:00.000000+0000"
     },
     {
         "finish": "2023-03-25T20:30:00.000000+0000",
@@ -427,8 +667,8 @@
     },
     {
         "finish": "2023-03-25T20:30:00.000000+0000",
-        "location": "Cosplay Meetup Fountain",
-        "name": "Fate/Moon Type",
+        "location": "Live 5",
+        "name": "Bets & Sets -Tudor Gaming & Gambling with A Klasse Akte",
         "start": "2023-03-25T19:00:00.000000+0000"
     },
     {
@@ -438,22 +678,64 @@
         "start": "2023-03-25T19:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T20:30:00.000000+0000",
+        "location": "Cosplay Meetup Fountain",
+        "name": "Fate/Moon Type",
+        "start": "2023-03-25T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T20:30:00.000000+0000",
+        "location": "Live 1",
+        "name": "Uncle Yo 's Japanese Folk Theater",
+        "start": "2023-03-25T19:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:30:00.000000+0000",
+        "location": "Live 3",
+        "name": "AMVs Showdown 2",
+        "start": "2023-03-25T19:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Room Clear",
+        "start": "2023-03-25T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T21:00:00.000000+0000",
+        "location": "Live 2",
+        "name": "Unmasking: Autism and ADHD representation in anime and manga",
+        "start": "2023-03-25T20:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T00:30:00.000000+0000",
+        "location": "Tabletop",
+        "name": "Magical Fury: Race to Protect the City",
+        "start": "2023-03-25T20:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T00:30:00.000000+0000",
+        "location": "Tabletop",
+        "name": "Golden Sky Stories: Heart Warming RP",
+        "start": "2023-03-25T20:30:00.000000+0000"
+    },
+    {
         "finish": "2023-03-25T21:30:00.000000+0000",
         "location": "Cosplay Meetup Fountain",
         "name": "Power Rangers/ Super Sentai",
         "start": "2023-03-25T20:30:00.000000+0000"
     },
     {
-        "finish": "2023-03-26T00:30:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Magical Fury: Race to Protect the City",
-        "start": "2023-03-25T20:30:00.000000+0000"
+        "finish": "2023-03-25T21:45:00.000000+0000",
+        "location": "Live 1",
+        "name": "Writing in Other People's Universe with Keith DeCandido",
+        "start": "2023-03-25T20:45:00.000000+0000"
     },
     {
-        "finish": "2023-03-26T00:30:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Golden Sky Stories: Heart Warming RP",
-        "start": "2023-03-25T20:30:00.000000+0000"
+        "finish": "2023-03-25T22:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Cosplay Masquerade Lineup & Seating",
+        "start": "2023-03-25T21:00:00.000000+0000"
     },
     {
         "finish": "2023-03-25T22:30:00.000000+0000",
@@ -462,9 +744,39 @@
         "start": "2023-03-25T21:00:00.000000+0000"
     },
     {
+        "finish": "2023-03-25T23:00:00.000000+0000",
+        "location": "Live 5",
+        "name": "ARMOR UP! : Cosplay Armor Workshop",
+        "start": "2023-03-25T21:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T23:30:00.000000+0000",
+        "location": "Live 2",
+        "name": "Bad Anime, Bad!!",
+        "start": "2023-03-25T21:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-25T22:45:00.000000+0000",
+        "location": "Live 3",
+        "name": "Fairytales and Fantasy",
+        "start": "2023-03-25T21:45:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T04:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Magic: Pre-release",
+        "start": "2023-03-25T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T00:00:00.000000+0000",
+        "location": "Live 3",
+        "name": "Ask a Jouster: Tales From The Tiltyard",
+        "start": "2023-03-25T22:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T00:30:00.000000+0000",
+        "location": "Main Events",
+        "name": "Cosplay Masquerade",
         "start": "2023-03-25T22:00:00.000000+0000"
     },
     {
@@ -474,22 +786,160 @@
         "start": "2023-03-25T22:30:00.000000+0000"
     },
     {
+        "finish": "2023-03-26T00:15:00.000000+0000",
+        "location": "Live 4",
+        "name": "Con Survival: How to make the most out of the con",
+        "start": "2023-03-25T22:45:00.000000+0000"
+    },
+    {
         "finish": "2023-03-26T02:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Dark Tower",
         "start": "2023-03-25T23:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-26T05:00:00.000000+0000",
-        "location": "Tabletop Gaming",
-        "name": "Maid RPG (Content Advisory)",
+        "finish": "2023-03-26T00:00:00.000000+0000",
+        "location": "Live 3",
+        "name": "Welcome to Middle-Earth: Adapting Tolkien Videos Games with The Tolkien Professor",
+        "start": "2023-03-25T23:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T01:00:00.000000+0000",
+        "location": "Live 5",
+        "name": "Build your own Pokeball Habitat",
+        "start": "2023-03-25T23:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T01:15:00.000000+0000",
+        "location": "Live 3",
+        "name": "Casks & Flasks Tudor Drinking  with A Klasse Akte",
+        "start": "2023-03-26T00:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T02:00:00.000000+0000",
+        "location": "Live 4",
+        "name": "Where My Ladies at? The Strong Female Influence in Manga/Anime",
+        "start": "2023-03-26T00:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T02:30:00.000000+0000",
+        "location": "Live 1",
+        "name": "Empyrean Decree: Live",
+        "start": "2023-03-26T00:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T01:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Room Clear",
+        "start": "2023-03-26T00:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T02:00:00.000000+0000",
+        "location": "Main Events",
+        "name": "Cosplay Dating Game",
         "start": "2023-03-26T01:00:00.000000+0000"
     },
     {
         "finish": "2023-03-26T05:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Alien the RPG: Hope's Last Day (Content Advisory)",
         "start": "2023-03-26T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T05:00:00.000000+0000",
+        "location": "Tabletop",
+        "name": "Maid RPG (Content Advisory)",
+        "start": "2023-03-26T01:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T02:30:00.000000+0000",
+        "location": "Live 3",
+        "name": "Gameshow Impossibru Waifu or Daifu withThe Manly Battleships",
+        "start": "2023-03-26T01:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T02:45:00.000000+0000",
+        "location": "Live 1",
+        "name": "Marvel Now Today (Marvel Comics 2014-2022)",
+        "start": "2023-03-26T01:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T02:45:00.000000+0000",
+        "location": "Main Events",
+        "name": "Room Clear",
+        "start": "2023-03-26T02:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T03:15:00.000000+0000",
+        "location": "Live 2",
+        "name": "Disney Movies Exposed",
+        "start": "2023-03-26T02:15:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T04:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Armchair Wizards: The Massive Multiplayer On-stage Live Action Role Playing Game Show",
+        "start": "2023-03-26T02:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T03:15:00.000000+0000",
+        "location": "Main Events",
+        "name": "Saturday Night Dance with DJ Trickstar",
+        "start": "2023-03-26T02:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T04:00:00.000000+0000",
+        "location": "Live 3",
+        "name": "Con Horror Stories with Minute Made Cosplay and John Swasey",
+        "start": "2023-03-26T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T04:30:00.000000+0000",
+        "location": "Live 5",
+        "name": "Character Creation 101",
+        "start": "2023-03-26T03:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T04:30:00.000000+0000",
+        "location": "Main Events",
+        "name": "Saturday Night Dance with TeaCake",
+        "start": "2023-03-26T03:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T16:30:00.000000+0000",
+        "location": "Live 4",
+        "name": "Panelist of Gor with The Manly Battleships",
+        "start": "2023-03-26T03:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T16:30:00.000000+0000",
+        "location": "Live 5",
+        "name": "A Small World after All; introduction to scale model building",
+        "start": "2023-03-26T03:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T04:30:00.000000+0000",
+        "location": "Live 2",
+        "name": "Censorship in Anime Vol. 3 presented by Hen Tie Cake",
+        "start": "2023-03-26T03:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T06:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Cloak, Dagger, Kimono, Katana: Spycraft And Other Dirty Deeds In Animation",
+        "start": "2023-03-26T04:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T05:30:00.000000+0000",
+        "location": "Live 4",
+        "name": "B Horror & Sci-Fi: the Good, the Good-bad, the Bad-bad, & the Ugly",
+        "start": "2023-03-26T04:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T05:45:00.000000+0000",
+        "location": "Live 2",
+        "name": "Mature Manga: Beyond the Bawdy",
+        "start": "2023-03-26T04:45:00.000000+0000"
     },
     {
         "finish": "2023-03-26T14:45:00.000000+0000",
@@ -498,15 +948,27 @@
         "start": "2023-03-26T13:45:00.000000+0000"
     },
     {
-        "finish": "2023-03-26T15:00:00.000000+0000",
-        "location": "Live 1",
-        "name": "1990's Anime: A decade of hits!",
+        "finish": "2023-03-26T15:30:00.000000+0000",
+        "location": "Main Events",
+        "name": "Bubblepop Variety Style Drag Show (Rated for All Ages)",
         "start": "2023-03-26T14:00:00.000000+0000"
     },
     {
         "finish": "2023-03-26T15:00:00.000000+0000",
         "location": "Live 5",
         "name": "Build your own Pokeball Habitat",
+        "start": "2023-03-26T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T15:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "1990's Anime: A decade of hits!",
+        "start": "2023-03-26T14:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T18:00:00.000000+0000",
+        "location": "Hall Cosplay/World of Cosplay/Cosplay Photobooth",
+        "name": "Cosplay Photobooth",
         "start": "2023-03-26T14:00:00.000000+0000"
     },
     {
@@ -523,15 +985,39 @@
     },
     {
         "finish": "2023-03-26T19:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "Academy Ace Tournament Finals (Video Gaming)",
         "start": "2023-03-26T15:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T16:30:00.000000+0000",
+        "location": "Live 1",
+        "name": "Meet Nika Futterman;Anime",
+        "start": "2023-03-26T15:30:00.000000+0000"
     },
     {
         "finish": "2023-03-26T17:00:00.000000+0000",
         "location": "Cosplay Meetup Fountain",
         "name": "Chainsaw Man",
         "start": "2023-03-26T15:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T16:45:00.000000+0000",
+        "location": "Live 4",
+        "name": "Cakes & Ale What the Tudors Ate & Why with A Klasse Akte",
+        "start": "2023-03-26T15:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T16:45:00.000000+0000",
+        "location": "Live 3",
+        "name": "Tolkien and the Enviroment with The Tolkien Professor",
+        "start": "2023-03-26T15:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T17:30:00.000000+0000",
+        "location": "Cosplay Meetup",
+        "name": "Haikyuu",
+        "start": "2023-03-26T16:00:00.000000+0000"
     },
     {
         "finish": "2023-03-26T18:00:00.000000+0000",
@@ -541,14 +1027,8 @@
     },
     {
         "finish": "2023-03-26T20:00:00.000000+0000",
-        "location": "Tabletop Gaming",
+        "location": "Tabletop",
         "name": "On-Demand: Pokemon RPG or Sentinels Comic RPG (Optional)",
-        "start": "2023-03-26T16:00:00.000000+0000"
-    },
-    {
-        "finish": "2023-03-26T17:30:00.000000+0000",
-        "location": "Cosplay Meetup",
-        "name": "Haikyuu",
         "start": "2023-03-26T16:00:00.000000+0000"
     },
     {
@@ -558,15 +1038,27 @@
         "start": "2023-03-26T17:00:00.000000+0000"
     },
     {
-        "finish": "2023-03-26T19:00:00.000000+0000",
-        "location": "Cosplay Meetup Stone Courtyard",
-        "name": "Twisted Wonderland",
-        "start": "2023-03-26T17:30:00.000000+0000"
+        "finish": "2023-03-26T18:15:00.000000+0000",
+        "location": "Live 3",
+        "name": "How to Make a Skit with Minute Made Cosplay",
+        "start": "2023-03-26T17:15:00.000000+0000"
     },
     {
         "finish": "2023-03-26T18:30:00.000000+0000",
         "location": "Cosplay Meetup",
         "name": "Nijisanji",
+        "start": "2023-03-26T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T18:30:00.000000+0000",
+        "location": "Live 4",
+        "name": "The Lion, The Ring, & The Cauldron: Comparative Themes with The Manly Battleships",
+        "start": "2023-03-26T17:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T19:00:00.000000+0000",
+        "location": "Cosplay Meetup Stone Courtyard",
+        "name": "Twisted Wonderland",
         "start": "2023-03-26T17:30:00.000000+0000"
     },
     {
@@ -580,6 +1072,36 @@
         "location": "Live 2",
         "name": "Myths and Mortals: Cultural Narrative and Speculative Fictions",
         "start": "2023-03-26T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T19:00:00.000000+0000",
+        "location": "Live 1",
+        "name": "Uncle Yo's Trauma and Recovery in Naruto",
+        "start": "2023-03-26T18:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T19:30:00.000000+0000",
+        "location": "Live 5",
+        "name": "Practail Self Defense Panel with Keith DeCandido",
+        "start": "2023-03-26T18:30:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T19:45:00.000000+0000",
+        "location": "Live 3",
+        "name": "Paupers to Prince(ses) How the Tudors Dressed with A Klasse Akte",
+        "start": "2023-03-26T18:45:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T20:00:00.000000+0000",
+        "location": "Live 4",
+        "name": "Till Death Do Us Part: How to Keep a Podcast Going Indefinitely with The Tolkien Professor",
+        "start": "2023-03-26T19:00:00.000000+0000"
+    },
+    {
+        "finish": "2023-03-26T20:15:00.000000+0000",
+        "location": "Live 1",
+        "name": "Drag Q&A Bubblepop Entertainment",
+        "start": "2023-03-26T19:15:00.000000+0000"
     },
     {
         "finish": "2023-03-26T20:30:00.000000+0000",

@@ -112,8 +112,14 @@ def load_guidebook_json(filename):
 
 
 def shorten_location(location):
+    name_map = {
+        "Tabletop Gaming": "Tabletop"
+    }
+    location = name_map.get(location, location)
+
     """ Extract the ACCC room number from a string like "303 - Panel 1". """
-    return location.split('-')[0].strip()
+    shorter = location.split('-')[0].strip()
+    return shorter
 
 
 def session_is_all_day(s, now):
