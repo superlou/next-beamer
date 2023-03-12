@@ -113,7 +113,8 @@ def load_guidebook_json(filename):
 
 def shorten_location(location):
     name_map = {
-        "Tabletop Gaming": "Tabletop"
+        "Tabletop Gaming": "Tabletop",
+        "Main Events": "Main",
     }
     location = name_map.get(location, location)
 
