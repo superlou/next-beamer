@@ -35,7 +35,8 @@ util.data_mapper{
 }
 
 local dt = 1 / 60
-local background_fade = create_color_resource_hex("#3a4bb3")
+--local background_fade = create_color_resource_hex("#3a4bb3")
+local background_fade = create_color_resource_hex("#2a3b53")
 
 function node.render()
   gl.clear(0.0, 0.0, 0.0, 1)
